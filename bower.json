@@ -1,0 +1,20 @@
+{
+  "name": "Chilerunning",
+  "version": "0.0.1",
+  "authors": [
+    "Mediatrends <mauro@mediatrends.cl>"
+  ],
+  "description": "Medio CR",
+  "main": "index.js",
+  "keywords": [
+    "cr"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

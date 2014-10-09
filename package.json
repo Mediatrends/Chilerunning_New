@@ -1,0 +1,14 @@
+{
+  "name": "Chilerunning",
+  "version": "0.0.1",
+  "description": "Medio CR",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cr"
+  ],
+  "author": "Media Trends",
+  "license": "ISC"
+}
