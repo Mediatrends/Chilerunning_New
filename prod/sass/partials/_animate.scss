@@ -1,0 +1,20 @@
+@include keyframes(fadein){
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+.fadein{
+	@include animation-name(fadein);
+	@include animation-duration(5s);
+	@include animation-fill-mode(forwards);
+	@include animation-timing-function(ease);
+}
+.fadeout{
+	@include animation-name(fadein);
+	@include animation-duration(2s);
+	@include animation-fill-mode(backwards);
+	@include animation-timing-function(ease);
+}
