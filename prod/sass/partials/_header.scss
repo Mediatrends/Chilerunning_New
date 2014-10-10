@@ -1,6 +1,7 @@
 header{
 	@include gridle(12);
 	@include gridle_parent();
+	@include gridle_clear(both);
 	background:{color:$main_color;}
 	main{
 		max-width:1170px;
@@ -33,27 +34,31 @@ header{
 					@include gridle_float(left);
 					border-right:1px solid #fff;
 					position: relative;
+					height: auto;
 					&:last-child{
 						border:none !important;
-					}
-					svg{
-						width:20px;
-						left:0;
-						right:0;
-						top:0;
-						@extend .center;
-						fill:$sec_color;
-						position: absolute;
-						z-index:1;
 					}
 					a{
 						font:{size:14px;weight:bold;}
 						color:#fff;
 						text:{decoration:none;transform:uppercase;}
 						display: block;
+						width:100%;
+						height:100%;
 						padding:0 20px;
 						position: relative;
-						z-index: 9;
+						z-index:10;
+					}
+					svg{
+						width:20px;
+						left:0;
+						right:0;
+						top:0;
+						opacity: 0;
+						@extend .center;
+						fill:$sec_color;
+						position: absolute;
+						z-index:1;
 					}
 					&.current-menu-item{
 						a{

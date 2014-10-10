@@ -5,7 +5,7 @@ module.exports = function(grunt){
 
 		watch:{
 			configFiles:{
-				files:['prod/sass/**/*.scss','prod/js/**/*.js','app/**/*.php'],
+				files:['prod/sass/**/*.scss','prod/js/**/*.js','app/wp-content/themes/chilerunning_new/**/*.php'],
 				options:{
 					livereload: true,
 				},

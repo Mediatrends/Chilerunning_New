@@ -2,4 +2,137 @@
 	max-width:1170px;
 	@extend .center;
 	@include gridle_parent();
+	@include gridle_clear(both);
+	.swipe{
+		overflow: hidden;
+		.swipe-wrap{
+			.content-slide{
+				background:{position:center;size:cover;};
+				min-height:564px;
+				overflow: hidden;
+				article{
+					min-height:188px;
+					width:100%;
+					bottom: 0;
+					position: absolute;
+					@extend .text-center;
+					background:{color:rgba(0,0,0,.3);}
+					a{
+						text:{decoration:none;}
+						display: block;
+						width:100%;
+						height:100%;
+						main{
+							h2{
+								font:{size:50px;family:$main_font;weight:bold;}
+								color:#fff;
+								line:{height:50px;}
+								text:{transform:uppercase;}
+								@extend .no-margins;
+								@extend .no-paddings;
+							}
+							p{
+								font:{family:$sec_font;size:12px;weight:normal;}
+								color:#fff;
+								@extend .no-paddings;
+								margin:10px 0;
+							}
+							.more{
+								margin:0 auto;
+								width:80px;
+								height:25px;
+								color:#000;
+								font:{weight:bold;size:12px;}
+								background:{color:#fff;}
+								border: none;
+								float: none;
+							}
+						}
+					}
+					.tags{
+						width:100%;
+						margin:{top:10px !important;}
+						@extend .text-center;
+						li{
+							display: inline-block;
+							padding:3px !important;
+							min-width:30px;
+							background:{color:$main_color;}
+							margin:0 2px !important;
+							span{
+								color: #fff;
+								@include gridle_float(left);
+							}
+							a{
+								display: inline;
+								color:#fff;
+								text:{decoration:none;}
+							}
+						}
+					}
+				}
+			}
+		}
+		.btn_prev{
+			position: absolute;
+			left:1%;
+			top:40%;
+			width:30px;
+			height:30px;
+			color:#fff;
+			font: {size:40px;}
+			cursor: pointer;
+		}
+		.btn_next{
+			@extend .btn_prev;
+			left:97%;
+		}
+	}
+	.tit_bar{
+		@include gridle(12);
+		@include gridle_parent();
+		height:34px;
+		background:{color:#000;}
+		color:#fff;
+		display: table;
+		margin:10px 0;
+		position: relative;
+		h2{
+			text:{transform:uppercase;}
+			font:{family:$sec_font;size:18px;weight:normal;}
+			line:{height:18px;}
+			@extend .no-margins;
+			@extend .no-paddings;
+			display: table-cell;
+			vertical-align: middle;
+			padding:{left:10px !important;}
+		}
+		.more{
+			float:right;
+			height:34px;
+			padding:0 10px;
+			background:{color:#333;}
+			display: table;
+			font:{family:$sec_font;size:13px;weight:normal;}
+			a{
+				display: table-cell;
+				vertical-align: middle;
+				color:#fff;
+				text:{decoration:none;}
+			}
+		}
+		.cacho{
+			position: absolute;
+			top:0;
+			left:-17px;
+			width:17px;
+			height:54px;
+			background:{image:url('../img/cacho_left.gif');}
+		}
+	}
+	#conte{
+		&.first{
+			font:{style:italic;}
+		}
+	}
 }
