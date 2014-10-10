@@ -33,7 +33,7 @@ module.exports = function(grunt){
 					style: 'nested'
 				},
 				files: {
-					'app/wp-content/themes/html5blank/css/main.css': 'prod/sass/main.scss'
+					'app/wp-content/themes/chilerunning_new/css/main.css': 'prod/sass/main.scss'
 				},
 			},
 		},
@@ -46,7 +46,7 @@ module.exports = function(grunt){
 		uglify:{
 			all:{
 				files:{
-			        'app/wp-content/themes/html5blank/js/output.min.js': ['prod/js/scripts.js']
+			        'app/wp-content/themes/chilerunning_new/js/output.min.js': ['prod/js/scripts.js']
 			    }
 			}
 		},
