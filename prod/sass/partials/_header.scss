@@ -9,6 +9,7 @@ header{
 		.logo{
 			@include gridle(1);
 			@include gridle_parent();
+			@extend .no-paddings;
 			width:54px;
 			display: table;
 			a{
@@ -16,7 +17,8 @@ header{
 				vertical-align: middle;
 				@include gridle(12);
 				@include gridle_parent();
-				padding:{top:5px;}
+				@extend .no-paddings;
+				padding:{top:5px !important;}
 				svg{
 					fill:#fff;
 				}

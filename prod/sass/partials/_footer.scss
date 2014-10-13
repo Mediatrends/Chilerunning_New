@@ -1,0 +1,52 @@
+.footer{
+	@include gridle(12);
+	@include gridle_clear();
+	margin:{top:20px;}
+	border:{top:10px;left:0;right:0;bottom:0;style:solid;color:$alt_color;}
+	background:{color:$main_color;}
+	.content{
+		max-width:1170px;
+		@extend .center;
+		.foot_box{
+			@include gridle(4);
+			svg{
+				fill:#fff;
+				max-width:90px;
+				margin:{top:20px;}
+			}
+			p{
+				color:#fff;
+				font:{size:12px;}
+			}
+			h3{
+				font:{size:20px;weight:bold;}
+				color:#fff;
+				line:{height: 20px;}
+			}
+			ul{
+				li{
+					color:#fff;
+					font:{size:12px;}
+					i{
+						width:20px;
+						margin:{right:5px}
+						color:#fff;
+						font:{size:20px;}
+						@include gridle_clear(both);
+						background:{position: center;}
+					}
+				}
+			}
+		}
+	}
+	.copyright{
+		margin:{top:10px;bottom:10px;}
+		@include gridle(12);
+		@include gridle_parent();
+		color:#fff;
+		@extend .text-center;
+		a{
+			color:$alt_color;
+		}
+	}
+}

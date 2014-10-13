@@ -53,3 +53,28 @@ html{
 		position: relative;
 	}
 }
+
+.sticky {  
+    position: fixed;  
+    left: 0;  
+    top: 0;  
+    z-index: 100; 
+}  
+
+//MOBILE FIRST
+@include gridle_register_state( phoness, (
+    max-width : $bp-small
+) );
+@include gridle_register_state( tabletss, (
+    min-width : $bp-med
+) );
+@include gridle_register_state( landscapess, (
+    min-width : $bp-large
+) );
+@include gridle_register_state( desktopess, (
+    min-width : $bp-xl
+) );
+
+
+//WEBKIT
+@include gridle_register_state(webkit_brw, (screen and (-webkit-min-device-pixel-ratio:0)));
