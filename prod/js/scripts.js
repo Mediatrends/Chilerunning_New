@@ -26,6 +26,7 @@
 				});
 		});
 
+		//SWIPE SLIDER 
 		window.mySwipe = new Swipe(document.getElementById('slider'), {
 		  startSlide: 1,
 		  speed: 1000,
@@ -50,6 +51,8 @@
 			'<div id="motiva" class="motiva_ad"></div>'
 		);
 
+
+		//STYCKY HEADER
 		var stickyNavTop = $('.header').offset().top;  
   
 		var stickyNav = function(){
@@ -60,13 +63,31 @@
 			} else {  
 			    $('.header').removeClass('sticky');   
 			}  
-		};  
-		  
+		};
+
 		stickyNav();  
 		  
 		$(window).scroll(function() {  
 		    stickyNav();  
-		});  
+		});
+
+		//SEARCH EFFECT
+		$('.search').on('click',function(){
+
+			$('.cont_search').toggle(function(){
+				$(this).show().animate({
+					height:'40px'
+				}).stop(true);
+			},function(){
+				$('.search').on('click',function(){
+					$(this).animate({
+						height:'1px'
+					}).stop(true);
+				});
+				
+			});
+			
+		});
 
 	});
 

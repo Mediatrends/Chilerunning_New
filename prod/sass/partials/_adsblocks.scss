@@ -6,3 +6,8 @@
 	left:0;
 	right:0;
 }
+.adblocks_300x250{
+	width:300px;
+	@extend .center;
+	margin-bottom: 20px !important;
+}

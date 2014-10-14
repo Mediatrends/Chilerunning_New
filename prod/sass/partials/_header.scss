@@ -105,10 +105,31 @@ header{
 				@include gridle_float(right);
 				width:20px;
 				padding: 20px;
+				cursor:pointer;
 				i{
 					color:#fff;
 					font:{size:16px;}
 				}
+			}
+		}
+
+	}
+	.cont_search{
+		@include gridle_clear(both);
+		max-width:1170px;
+		@extend .center;
+		position: relative;
+		overflow: hidden;
+		display: none;
+		padding:{bottom:10px;}
+		form{
+			input{
+				@include gridle(12);
+				color:#fff;
+				border: none;
+				height: 40px;
+				font:{size:20px;}
+				background:{color:rgba(255,255,255,.5);}
 			}
 		}
 	}

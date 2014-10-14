@@ -377,7 +377,7 @@ function get_single_template() {
 
 	if ( ! empty( $object->post_type ) )
 		$templates[] = "single-{$object->post_type}.php";
-	$templates[] = "single.php";
+	$templates[] = "single-default.php";
 
 	return get_query_template( 'single', $templates );
 }
