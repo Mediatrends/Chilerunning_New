@@ -38,6 +38,37 @@ html{
 		font:{family:$main_font;size:12px;weight:normal;}
 	}
 }
+aside{
+	@extend .text-center;
+	&.sidebar{
+		@include gridle(4);
+		h3{
+			font:{size: 20px;}
+			@extend .text-left;
+			border:{bottom: 1px solid #CCC;}
+		}
+		form{
+			@include gridle(12);
+			@extend .text-left;
+			input{
+				@extend .text-center;
+				height: 26px;
+				&[type="email"]{
+					@include gridle(8);
+					border:#000 solid 1px;
+				}
+				&[type="submit"]{
+					@include gridle(3);
+					@include gridle_push(1);
+					border:none;
+					background:{color:$main_color;}
+					color:#fff;
+					font:{size:12px;weight:bold;}
+				}
+			}
+		}
+	}
+}
 .swipe {
 	overflow: hidden;
 	visibility: hidden;
@@ -59,7 +90,49 @@ html{
     top: 0;  
     z-index: 100; 
 }  
-
+.barra_titulos{
+	@include gridle(12);
+	@include gridle_parent();
+	@extend .no-paddings;
+	height:34px;
+	background:{color:#000;}
+	color:#fff;
+	display: table;
+	margin:10px 0;
+	position: relative;
+	h2{
+		text:{transform:uppercase;}
+		font:{family:$sec_font;size:18px;weight:normal;}
+		line:{height:18px;}
+		@extend .no-margins;
+		@extend .no-paddings;
+		display: table-cell;
+		vertical-align: middle;
+		padding:{left:10px !important;}
+	}
+	.more{
+		float:right;
+		height:34px;
+		padding:0 10px;
+		background:{color:#333;}
+		display: table;
+		font:{family:$sec_font;size:13px;weight:normal;}
+		a{
+			display: table-cell;
+			vertical-align: middle;
+			color:#fff;
+			text:{decoration:none;}
+		}
+	}
+	.cacho{
+		position: absolute;
+		top:0;
+		left:-17px;
+		width:17px;
+		height:54px;
+		background:{image:url('../img/cacho_left.gif');}
+	}
+}
 //MOBILE FIRST
 @include gridle_register_state( phoness, (
     max-width : $bp-small

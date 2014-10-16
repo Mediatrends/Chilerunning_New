@@ -1,0 +1,133 @@
+.content-single{
+	@include gridle(8);
+	section{
+		@include gridle(12);
+		article{
+			h1{
+				font:{size:30px;}
+				color:$main_color;
+				text:{transform:uppercase;}
+			}
+			.img-post{
+				@include gridle(12);
+				@include gridle_parent();
+				height: 367px;
+				background:{size: cover;}
+				overflow: hidden;
+				position: relative;
+				.tags{
+					position: absolute;
+					bottom:10px;
+					li{
+						display: inline-block;
+						margin:0 4px 0 0 !important;
+						background:{color:$main_color;}
+						color:#fff;
+						padding:4px !important;
+						a{
+							color:#fff;
+							text:{decoration:none;}
+						}
+					}
+				}
+			}
+			.author{
+				@include gridle(12);
+				@include gridle_parent();
+				@include gridle_clear(right);
+				padding:10px 0;
+				.avatar{
+					width:34px;
+					height:34px;
+					margin:{right:10px;}
+					@include border-top-radius(50%);
+					@include border-bottom-radius(50%);
+					@include border-left-radius(50%);
+					@include border-right-radius(50%);
+					@include gridle_float(left);
+				}
+				p{
+					@include gridle_float(left);
+					@extend .no-margins;
+					@extend .no-paddings;
+					&.autor{
+						span{
+							padding-right:5px;
+						}
+						a{
+							color:#000;
+							text:{decoration:none;}
+						}
+					}
+					span{
+						font:{weight:bold;}
+					}
+				}
+			}
+		}
+		&.related{
+			@include gridle_parent();
+			h2{
+				@extend .text-center;
+			}
+			ul{
+				@include gridle(12);
+				@include gridle_parent();
+				@extend .text-center;
+				li{
+					width:189px;
+					margin:0 10px !important;
+					display: inline-block;
+					min-height: 191px;
+					overflow: hidden;
+					position: relative;
+					background:{position: center;size:cover;}
+					&:last-child{
+						margin: 0 !important
+					}
+					&:first-child{
+						margin: 0 !important
+					}
+					a{
+						display: block;
+						width:100%;
+						height:100%;
+						color:#fff;
+						text:{transform:uppercase;decoration:none;}
+						h3{
+							@include gridle(12);
+							position: absolute;
+							bottom:0;
+							left:0;
+							font:{size:12px;}
+							line:{height:12px;}
+							padding:{top:5px;bottom:5px;}
+							@extend .text-left;
+							background:{color:$main_color;}
+							@extend .no-margins;
+						}
+					}
+				}
+			}
+		}
+	}
+	.nav{
+		@include gridle(12);
+		display: table;
+		a{
+			display:table-cell;
+			vertical-align: middle;
+			text:{decoration:none;}
+			color:#000;
+			&[rel="next"]{
+				@extend .text-right;
+				i{
+					margin:{left:10px;right:0;}
+				}
+			}
+			i{
+				margin:{right:10px;}
+			}
+		}
+	}
+}

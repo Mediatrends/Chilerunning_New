@@ -51,6 +51,7 @@
 			'<div id="motiva" class="motiva_ad"></div>'
 		);
 
+		$('.wrapper .cont_post_calendar .meses .meses_cont .calendar').first().addClass('first');
 
 		//STYCKY HEADER
 		var stickyNavTop = $('.header').offset().top;  

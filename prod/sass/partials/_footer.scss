@@ -39,14 +39,44 @@
 			}
 		}
 	}
-	.copyright{
-		margin:{top:10px;bottom:10px;}
+	.redes{
 		@include gridle(12);
-		@include gridle_parent();
-		color:#fff;
+		background:{color:#fff;}
+		color:$main_color;
 		@extend .text-center;
-		a{
-			color:$alt_color;
+		ul{
+			width:100%;
+			padding-top:20px !important;
+			li{
+				display: inline-block;
+				margin:0 50px !important;
+				a{
+					color:$main_color;
+					text:{decoration:none;}
+				}
+				i{
+					color: #FFF;
+					background:{color: $main_color;}
+					@include border-top-radius(50%);
+					@include border-bottom-radius(50%);
+					@include border-left-radius(50%);
+					@include border-right-radius(50%);
+					height: 17px;
+					width: 21px;
+					padding:{top: 4px;}
+				}
+			}
+		}
+		.copyright{
+			margin:{top:10px;bottom:10px;}
+			@include gridle(12);
+			@include gridle_parent();
+			color:$main_color;
+			font: {size:8px;}
+			@extend .text-center;
+			a{
+				color:#000;
+			}
 		}
 	}
 }
