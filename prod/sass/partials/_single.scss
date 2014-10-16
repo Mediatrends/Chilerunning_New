@@ -12,7 +12,7 @@
 				@include gridle(12);
 				@include gridle_parent();
 				height: 367px;
-				background:{size: cover;}
+				background:{size: 100%;repeat:no-repeat;position: center;}
 				overflow: hidden;
 				position: relative;
 				.tags{
@@ -62,6 +62,11 @@
 					span{
 						font:{weight:bold;}
 					}
+				}
+			}
+			p{
+				img{
+					max-width: 100%;
 				}
 			}
 		}
