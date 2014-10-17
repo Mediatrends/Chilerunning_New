@@ -73,19 +73,16 @@
 		});
 
 		//SEARCH EFFECT
-		$('.search').on('click',function(){
+		$('#searching').click(function(){
 
 			$('.cont_search').toggle(function(){
-				$(this).show().animate({
+				$('.cont_search').animate({
 					height:'40px'
 				}).stop(true);
 			},function(){
-				$('.search').on('click',function(){
-					$(this).animate({
-						height:'1px'
-					}).stop(true);
-				});
-				
+				$('.cont_search').animate({
+					height:'1px'
+				}).stop(true);
 			});
 			
 		});

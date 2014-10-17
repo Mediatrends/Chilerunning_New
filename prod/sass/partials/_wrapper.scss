@@ -287,11 +287,14 @@
 			}
 			.cont{
 				main{
-					h2{
-						font:{size:26px;weight:bold;}
-						line:{height:26px;}
-						color:$main_color;
-						text:{transform:uppercase;}
+					a{
+						text:{decoration:none;}
+						h2{
+							font:{size:26px;weight:bold;}
+							line:{height:26px;}
+							color:$main_color;
+							text:{transform:uppercase;}
+						}
 					}
 					p{
 						font:{family:$sec_font;size:12px;}
@@ -308,6 +311,26 @@
 							width: 60px;
 							@extend .text-center;
 						}
+					}
+				}
+			}
+		}
+		.pagination{
+			@include gridle(12);
+			ul{
+				max-width:1170px;
+				@extend .center;
+				@extend .text-center;
+				li{
+					display: inline-block;
+					width:10px;
+					height:19px;
+					padding:5px !important;
+					color:#fff;
+					background:{color:$main_color;}
+					a{
+						color:#fff;
+						text:{decoration:none;}
 					}
 				}
 			}
