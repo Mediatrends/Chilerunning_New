@@ -112,6 +112,9 @@
 				.alt_link{
 					display: none;
 				}
+				.shares_loop{
+					display: none;
+				}
 				a{
 					text:{decoration:none;}
 					main{
@@ -156,6 +159,7 @@
 						width:36px;
 						height:36px;
 						position: absolute;
+						z-index: 2;
 						top:0;
 						left:0;
 						background:{color:$alt_color;}
@@ -165,6 +169,33 @@
 						i{
 							display: table-cell;
 							vertical-align: middle;
+						}
+					}
+					.shares_loop{
+						position: absolute;
+						z-index: 1;
+						display: table;
+						height:36px;
+						top:0;
+						left:40px;
+						color:#fff;
+						font:{size:20px !important;}
+						a{
+							height:36px;
+							display: inline-block;
+							color:#fff;
+							padding:0 10px;
+							&[data-type="facebook"]{
+								background:{color:#305891;}
+							}
+							&[data-type="twitter"]{
+								background:{color:#2CA8D2;}
+							}
+							i{
+								span{
+									font:{size:14px;family:$main_font;}
+								}
+							}
 						}
 					}
 					a{
@@ -250,11 +281,11 @@
 				overflow: hidden;
 				background: {size:cover;position: center;}
 				.alt_link{
-					text:{decoration:none;}
 					display: table;
 					width:36px;
 					height:36px;
 					position: absolute;
+					z-index: 2;
 					top:0;
 					left:0;
 					background:{color:$alt_color;}
@@ -264,6 +295,33 @@
 					i{
 						display: table-cell;
 						vertical-align: middle;
+					}
+				}
+				.shares_loop{
+					position: absolute;
+					z-index: 1;
+					display: table;
+					height:36px;
+					top:0;
+					left:40px;
+					color:#fff;
+					font:{size:20px !important;}
+					a{
+						height:36px;
+						display: inline-block;
+						color:#fff;
+						padding:0 10px;
+						&[data-type="facebook"]{
+							background:{color:#305891;}
+						}
+						&[data-type="twitter"]{
+							background:{color:#2CA8D2;}
+						}
+						i{
+							span{
+								font:{size:14px;family:$main_font;}
+							}
+						}
 					}
 				}
 				.tags{
