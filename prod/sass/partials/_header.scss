@@ -67,7 +67,20 @@ header{
 							color:$sec_color;
 						}
 					}
+					@include gridle_state(landscapess){
+						a{
+							font:{size:13px;}
+							padding:0 17px;
+						}
+					}
 				}
+			}
+			@include gridle_state(landscapess){
+				display: block;
+				padding:{top:25px;}
+			}
+			@include gridle_state(phoness){
+				display: none;
 			}
 		}
 		.tools{
