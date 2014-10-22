@@ -1,3 +1,20 @@
+//MOBILE FIRST
+@include gridle_register_state( phoness, (
+    max-width : $bp-small
+) );
+@include gridle_register_state( tabletss, (
+    min-width : $bp-med
+) );
+@include gridle_register_state( landscapess, (
+    min-width : $bp-large
+) );
+@include gridle_register_state( desktopess, (
+    min-width : $bp-xl
+) );
+
+
+//WEBKIT
+@include gridle_register_state(webkit_brw, (screen and (-webkit-min-device-pixel-ratio:0)));
 .text-center{
 	text-align: center;
 }
@@ -112,29 +129,27 @@ aside{
 	}
 	.more{
 		float:right;
-		height:34px;
-		padding:0 10px;
-		background:{color:#333;}
-		display: table;
-		font:{family:$sec_font;size:13px;weight:normal;}
 		a{
 			display: table-cell;
 			vertical-align: middle;
 			color:#fff;
 			text:{decoration:none;}
 			span{
-				@include gridle_hide(phoness);
+				@include gridle_hide(phoness tabletss);
+				@include gridle_state(desktopess landscapess){
+					display: block;
+				}
 			}
 			i{
-				@include gridle_hide();
-				@include gridle_state(phoness){
+				@include gridle_state(phoness tabletss){
 					display: table-cell;
 					vertical:{align:middle;}
 					color:#000;
 					font: {size:18px;}
 				}
+				@include gridle_hide(desktopess landscapess);
 			}
-			@include gridle_state(phoness){
+			@include gridle_state(phoness tabletss){
 				background:{color:#fff;}
 				width:22px;
 				height:22px;
@@ -143,12 +158,28 @@ aside{
 				@include border-bottom-radius(3px);
 				@include border-left-radius(3px);
 				@include border-right-radius(3px);
-				@extend .text-center;
+				text:{align:center;}
 				display: table;
 			}
+			@include gridle_state(desktopess landscapess){
+				background: none;
+				@include border-top-radius(0);
+				@include border-bottom-radius(0);
+				@include border-left-radius(0);
+				@include border-right-radius(0);
+				width:100%;
+				height:100%;
+			}
 		}
-		@include gridle_state(phoness){
+		@include gridle_state(phoness tabletss){
 			background: none;
+		}
+		@include gridle_state(desktopess landscapess){
+			height:34px;
+			padding:0 10px;
+			background:{color:#333;}
+			display: table;
+			font:{family:$sec_font;size:13px;weight:normal;}
 		}
 	}
 	.cacho{
@@ -160,20 +191,3 @@ aside{
 		background:{image:url('../img/cacho_left.gif');}
 	}
 }
-//MOBILE FIRST
-@include gridle_register_state( phoness, (
-    max-width : $bp-small
-) );
-@include gridle_register_state( tabletss, (
-    min-width : $bp-med
-) );
-@include gridle_register_state( landscapess, (
-    min-width : $bp-large
-) );
-@include gridle_register_state( desktopess, (
-    min-width : $bp-xl
-) );
-
-
-//WEBKIT
-@include gridle_register_state(webkit_brw, (screen and (-webkit-min-device-pixel-ratio:0)));

@@ -164,7 +164,7 @@
 					display: none;
 				}
 				@include gridle_state(phoness){
-					background: {size:100% auto;position: top center;}
+					background: {size:100% 89px;position: top center;}
 				}
 			}
 			h2{
@@ -229,7 +229,7 @@
 							@include gridle(12);
 							position: absolute;
 							bottom: 0;
-							padding:{bottom:10px;}
+							padding:{bottom:10px;top:0;}
 							background:{color:$main_color_alpha;}
 							&:hover{
 								background: {color:$main_color;}

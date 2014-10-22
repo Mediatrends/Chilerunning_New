@@ -23,7 +23,7 @@ header{
 					fill:#fff;
 				}
 			}
-			@include gridle_state(phoness){
+			@include gridle_state(phoness tabletss){
 				margin:{left:5px;}
 			}
 		}
@@ -78,15 +78,13 @@ header{
 					}
 				}
 			}
-			@include gridle_state(landscapess){
+			
+			@include gridle_state(phoness tabletss){
+				display: none;
+			}
+			@include gridle_state(landscapess desktopess){
 				display: block;
 				padding:{top:25px;}
-			}
-			@include gridle_state(phoness){
-				display: none;
-			}
-			@include gridle_state(tabletss){
-				display: none;
 			}
 		}
 		.tools{
@@ -130,9 +128,10 @@ header{
 					font:{size:16px;}
 				}
 			}
-			@include gridle_state(phoness){
+			@include gridle_state(phoness tabletss){
 				display: none;
 			}
+			@include gridle_show(desktopess);
 		}
 		.btn_menuph{
 			@include gridle(1);
@@ -170,7 +169,7 @@ header{
 			}
 		}
 	}
-	@include gridle_state(phoness){
+	@include gridle_state(phoness tabletss){
 		padding:{left:0;right:0;}
 	}
 }
