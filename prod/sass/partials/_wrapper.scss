@@ -25,12 +25,23 @@
 							text:{transform:uppercase;}
 							@extend .no-margins;
 							@extend .no-paddings;
+							@include gridle_state(phoness){
+								font:{size:20px;}
+								line:{height:20px;}
+								margin:{top:10px !important;left:auto !important;right:auto !important;}
+								max-width:80%;
+							}
 						}
 						p{
 							font:{family:$sec_font;size:12px;weight:normal;}
 							color:#fff;
 							@extend .no-paddings;
 							margin:10px 0;
+							@include gridle_state(phoness){
+								font:{size:10px;}
+								margin:{top:5px;left:auto;right:auto;}
+								max-width:80%;
+							}
 						}
 						.more{
 							margin:0 auto;
@@ -47,6 +58,7 @@
 								height:100%;
 								color:#000;
 							}
+							@include gridle_hide(phoness);
 						}
 					}
 					.tags{
@@ -69,7 +81,14 @@
 								text:{decoration:none;}
 							}
 						}
+						@include gridle_hide(phoness);
 					}
+					@include gridle_state(phoness){
+						min-height:63px;
+					}
+				}
+				@include gridle_state(phoness){
+					min-height:280px;
 				}
 			}
 		}
@@ -85,6 +104,7 @@
 			&:hover{
 				color:$main_color;
 			}
+			@include gridle_hide(phoness);
 		}
 		.btn_next{
 			@extend .btn_prev;
@@ -135,10 +155,16 @@
 							width: 60px;
 							@extend .text-center;
 						}
+						@include gridle_state(phoness){
+							padding:{top:90px;left:0;}
+						}
 					}
 				}
 				.tags{
 					display: none;
+				}
+				@include gridle_state(phoness){
+					background: {size:100% auto;position: top center;}
 				}
 			}
 			h2{
@@ -214,6 +240,9 @@
 							h2{
 								font:{size:26px;weight:bold;family:$main_font;}
 								color:#fff;
+								@include gridle_state(phoness){
+									font:{size:20px;}
+								}
 							}
 							.more{
 								background:{color:#fff;}
@@ -240,11 +269,21 @@
 						}
 					}
 				}
+				@include gridle(12, phoness);
+				@include gridle_state(phoness){
+					height: 273px;
+					padding:0 !important;
+				}
 			}
 			&.last{
 				@extend .first;
 				height: 235px;
 				padding:{right:0;left: 10px;}
+				@include gridle(12, phoness);
+				@include gridle_state(phoness){
+					height: 273px;
+					padding:0 !important;
+				}
 			}
 			&.entrena_ad{
 				height:250px;
@@ -253,6 +292,11 @@
 				@include gridle-float(right !important);
 				margin:{bottom:0;}
 				background:{color:$main_color;}
+				@include gridle_hide(phoness);
+			}
+			@include gridle_state(phoness){
+				min-height: 180px;
+				margin:{top:10px;bottom:10px;}
 			}
 		}
 	}

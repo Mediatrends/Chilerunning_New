@@ -23,6 +23,9 @@ header{
 					fill:#fff;
 				}
 			}
+			@include gridle_state(phoness){
+				margin:{left:5px;}
+			}
 		}
 		nav{
 			@include gridle(8);
@@ -82,6 +85,9 @@ header{
 			@include gridle_state(phoness){
 				display: none;
 			}
+			@include gridle_state(tabletss){
+				display: none;
+			}
 		}
 		.tools{
 			@include gridle(3);
@@ -124,8 +130,26 @@ header{
 					font:{size:16px;}
 				}
 			}
+			@include gridle_state(phoness){
+				display: none;
+			}
 		}
-
+		.btn_menuph{
+			@include gridle(1);
+			float:right !important;
+			@include gridle_hide(desktopess landscapess);
+			width:64px;
+			height:64px;
+			display: table;
+			background:{color:$main_color_light;}
+			@extend .text-center;
+			i{
+				color:#fff;
+				font: {size:26px;}
+				display: table-cell;
+				vertical:{align: middle;}
+			}
+		}
 	}
 	.cont_search{
 		@include gridle_clear(both);
@@ -145,5 +169,8 @@ header{
 				background:{color:rgba(255,255,255,.5);}
 			}
 		}
+	}
+	@include gridle_state(phoness){
+		padding:{left:0;right:0;}
 	}
 }
