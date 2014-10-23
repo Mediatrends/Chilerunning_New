@@ -4,6 +4,10 @@
 	$(function () {
 		// DOM ready, take it away
 
+
+		$(window).load(function(){
+			$('.header').fadeIn(1000);
+		});
 		//MENU EFFECT - REPEAT ALL -
 		$('.menu-item-4').hover(
 			function(){

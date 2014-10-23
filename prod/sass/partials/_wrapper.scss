@@ -7,10 +7,19 @@
 		overflow: hidden;
 		.swipe-wrap{
 			.content-slide{
+				@include gridle_state(phoness){
+					min-height:280px;
+				}
+				@include gridle_state(tabletss){
+					min-height:400px;
+				}
 				background:{position:center;size:cover;};
 				min-height:564px;
 				overflow: hidden;
 				article{
+					@include gridle_state(phoness tabletss){
+						min-height:63px;
+					}
 					min-height:188px;
 					width:100%;
 					bottom: 0;
@@ -19,28 +28,34 @@
 					background:{color:rgba(0,0,0,.3);}
 					main{
 						h2{
-							font:{size:50px;family:$main_font;weight:bold;}
-							color:#fff;
-							line:{height:50px;}
-							text:{transform:uppercase;}
-							@extend .no-margins;
-							@extend .no-paddings;
-							@include gridle_state(phoness){
+							@include gridle_state(phoness tabletss){
 								font:{size:20px;}
 								line:{height:20px;}
 								margin:{top:10px !important;left:auto !important;right:auto !important;}
 								max-width:80%;
 							}
+							@include gridle_state(desktopess landscapess){
+								font:{size:50px;}
+								line:{height:50px;}
+							}
+							font:{family:$main_font;weight:bold;}
+							color:#fff;
+							text:{transform:uppercase;}
+							@extend .no-margins;
+							@extend .no-paddings;
 						}
 						p{
-							font:{family:$sec_font;size:12px;weight:normal;}
+							font:{family:$sec_font;weight:normal;}
 							color:#fff;
 							@extend .no-paddings;
 							margin:10px 0;
-							@include gridle_state(phoness){
+							@include gridle_state(phoness tabletss){
 								font:{size:10px;}
 								margin:{top:5px;left:auto;right:auto;}
 								max-width:80%;
+							}
+							@include gridle_state(desktopess landscapess){
+								font:{size:12px;}
 							}
 						}
 						.more{
@@ -58,7 +73,7 @@
 								height:100%;
 								color:#000;
 							}
-							@include gridle_hide(phoness);
+							@include gridle_hide(phoness tabletss);
 						}
 					}
 					.tags{
@@ -81,18 +96,15 @@
 								text:{decoration:none;}
 							}
 						}
-						@include gridle_hide(phoness);
+						@include gridle_hide(phoness tabletss);
+						@include gridle_show(desktopess landscapess);
 					}
-					@include gridle_state(phoness){
-						min-height:63px;
-					}
-				}
-				@include gridle_state(phoness){
-					min-height:280px;
 				}
 			}
 		}
 		.btn_prev{
+			@include gridle_hide(phoness tabletss);
+			@include gridle_show(desktopess landscapess);
 			position: absolute;
 			left:1%;
 			top:40%;
@@ -104,7 +116,7 @@
 			&:hover{
 				color:$main_color;
 			}
-			@include gridle_hide(phoness);
+			
 		}
 		.btn_next{
 			@extend .btn_prev;
@@ -120,12 +132,31 @@
 			@extend .barra_titulos;
 		}
 		#entrena{
-			@include gridle(2+1/2);
-			height: 88px;
-			margin:{bottom:42px;}
-			@include gridle(6, phoness);
+			@include gridle(6, phoness tabletss landscapess);
+			@include gridle_state(phoness){
+				height: 180px;
+				margin:{top:10px;bottom:10px;}
+			}
+			@include gridle_state(tabletss landscapess){
+				height: 240px;
+				margin:{top:10px;bottom:10px;}
+			}
+			@include gridle(2+1/2, desktopess);
+			@include gridle_state(desktopess){
+				height: 88px;
+				margin:{bottom:32px;}
+			}
 			article{
-				background:{position:left;size: 88px 88px;repeat: no-repeat;}
+				@include gridle_state(phoness){
+					background: {size:100% 89px;position: top center;}
+				}
+				@include gridle_state(tabletss landscapess){
+					background: {size:100% 159px;position: top center;}
+				}
+				@include gridle_state(desktopess){
+					background: {position:left;size: 88px 88px;}
+				}
+				background:{repeat: no-repeat;}
 				width: 100%;
 				height: 100%;
 				display: block;
@@ -138,7 +169,15 @@
 				a{
 					text:{decoration:none;}
 					main{
-						padding:{left: 100px;}
+						@include gridle_state(phoness){
+							padding:{top:90px;left:0;}
+						}
+						@include gridle_state(tabletss landscapess){
+							padding:{top:170px;left:0;}
+						}
+						@include gridle_state(desktopess){
+							padding:{left: 100px;top:0;}
+						}
 						h2{
 							font:{size:12px;weight:bold;family:$main_font;}
 							color:$main_color;
@@ -155,16 +194,13 @@
 							width: 60px;
 							@extend .text-center;
 						}
-						@include gridle_state(phoness){
-							padding:{top:90px;left:0;}
-						}
 					}
 				}
 				.tags{
 					display: none;
 				}
-				@include gridle_state(phoness){
-					background: {size:100% 89px;position: top center;}
+				.more_pho{
+					@include gridle_hide();
 				}
 			}
 			h2{
@@ -172,10 +208,17 @@
 				@extend .no-paddings;
 			}
 			&.first{
-				@include gridle(6);
-				height:495px;
+				@include gridle(12, phoness tabletss landscapess);
+				@include gridle_state(phoness tabletss landscapess){
+					height: 273px;
+					padding:0;
+				}
+				@include gridle(6, desktopess);
+				@include gridle_state(desktopess){
+					height:495px;
+					padding:{left:0;}
+				}
 				margin:{bottom:0;}
-				padding:{left:0;}
 				article{
 					background:{size:cover;position: center;}
 					position: relative;
@@ -238,17 +281,39 @@
 								display: none;
 							}
 							h2{
-								font:{size:26px;weight:bold;family:$main_font;}
-								color:#fff;
-								@include gridle_state(phoness){
+								@include gridle_state(phoness tabletss){
 									font:{size:20px;}
 								}
+								@include gridle_state(desktopess landscapess){
+									font:{size:26px;}
+								}
+								font:{weight:bold;family:$main_font;}
+								color:#fff;
 							}
 							.more{
 								background:{color:#fff;}
 								color:$main_color;
 								@include gridle_float(right);
 								margin:{right:10px;}
+								@include gridle_hide(phoness tabletss);
+							}
+							.more_pho{
+								@include gridle_hide(desktopess landscapess);
+								@include gridle_state(phoness tabletss){
+									display: table;
+									position: relative;
+									float:right;
+									width:27px;
+									height:27px;
+									background:{color:$sec_color;}
+									text:{align:center;}
+									margin:{right:-10px;bottom:-10px;}
+									i{
+										color:#fff;
+										display: table-cell;
+										vertical:{align:middle;}
+									}
+								}
 							}
 						}
 					}
@@ -256,33 +321,49 @@
 						display: block;
 						color:#fff;
 						position: absolute;
-						bottom: 10px;
 						padding:{left:10px  !important;right:10px !important;}
 						li{
 							@include gridle_float(left);
 							margin: {right:10px !important;}
 							a{
-								font:{size:14px;family:$sec_font;}
+								font:{family:$sec_font;}
 								color:#fff;
 								text:{decoration:none;}
 							}
 						}
+						@include gridle_state(phoness tabletss){
+							max-width:300px;
+							bottom:1px;
+							li{
+								font:{size:10px;}
+								a{
+									font:{size:10px;}
+								}
+							}
+						}
+						@include gridle_state(desktopess landscapess){
+							bottom: 10px;
+							li{
+								a{
+									font:{size:14px;}
+								}
+							}
+						}
 					}
-				}
-				@include gridle(12, phoness);
-				@include gridle_state(phoness){
-					height: 273px;
-					padding:0 !important;
 				}
 			}
 			&.last{
 				@extend .first;
-				height: 235px;
-				padding:{right:0;left: 10px;}
 				@include gridle(12, phoness);
 				@include gridle_state(phoness){
 					height: 273px;
 					padding:0 !important;
+				}
+				@include gridle_hide(tabletss landscapess);
+				@include gridle_state(desktopess){
+					height: 235px;
+					padding:{right:0;left: 10px;}
+					display: block;
 				}
 			}
 			&.entrena_ad{
@@ -292,11 +373,8 @@
 				@include gridle-float(right !important);
 				margin:{bottom:0;}
 				background:{color:$main_color;}
-				@include gridle_hide(phoness);
-			}
-			@include gridle_state(phoness){
-				min-height: 180px;
-				margin:{top:10px;bottom:10px;}
+				@include gridle_hide(phoness tabletss landscapess);
+				@include gridle_show(desktopess);
 			}
 		}
 	}
@@ -415,6 +493,11 @@
 						}
 					}
 				}
+			}
+			@include gridle(12, phoness);
+			@include gridle(4, tabletss);
+			@include gridle_state(phoness tabletss){
+				padding:{bottom: 10px;}
 			}
 		}
 		.pagination{

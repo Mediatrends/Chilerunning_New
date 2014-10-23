@@ -3,13 +3,22 @@
 	margin:10px 0;
 	.addthis_toolbox{
 		.count_share{
-			@include gridle(1);
-			border:{right:1px solid #aaa;}
+			@include gridle(1, desktopess landscapess);
+			@include gridle_state(desktopess landscapess){
+				border:{right:1px solid #aaa;}
+			}
+			@include gridle(2, phoness tabletss);
 			p{
 				@include gridle(12);
 				@extend .no-paddings;
 				@extend .no-margins;
-				font:{size:14px;}
+				@include gridle_state(desktopess landscapess){
+					font:{size:14px;}
+				}
+				@include gridle_state(phoness tabletss){
+					font:{size:9px;}
+					text:{align:center;}
+				}
 			}
 			span{
 				display: block;
@@ -32,7 +41,8 @@
 			}
 		}
 		.shares{
-			@include gridle(11);
+			@include gridle(11, desktopess landscapess);
+			@include gridle(10, phoness tabletss);
 			height: 50px;
 			padding:{top:20px;}
 			a{
@@ -60,7 +70,13 @@
 					display: table-cell;
 					vertical-align: middle;
 					span{
-						font:{size:14px;family:$main_font;}
+						@include gridle_state(phoness tabletss){
+							font:{size:10px;}
+						}
+						@include gridle_state(desktopess landscapess){
+							font:{size:14px;}
+						}
+						font:{family:$main_font;}
 						margin:{left:5px;}
 					}
 				}
@@ -69,7 +85,7 @@
 	}
 }
 .content-single{
-	@include gridle(8);
+	@include gridle(8, desktopess landscapess);
 	section{
 		@include gridle(12);
 		article{
@@ -81,7 +97,12 @@
 			.img-post{
 				@include gridle(12);
 				@include gridle_parent();
-				height: 367px;
+				@include gridle_state(phoness tabletss){
+					height:200px;
+				}
+				@include gridle_state(desktopess landscapess){
+					height: 367px;
+				}
 				background:{size: 100%;repeat:no-repeat;position: center;}
 				overflow: hidden;
 				position: relative;
@@ -151,7 +172,7 @@
 				@include gridle_parent();
 				@extend .text-center;
 				li{
-					width:189px;
+					width:30%;
 					margin:0 10px !important;
 					display: inline-block;
 					min-height: 191px;
@@ -190,6 +211,10 @@
 	.nav{
 		@include gridle(12);
 		display: table;
+		@include gridle_state(phoness tabletss){
+			padding:{top:10px;bottom:10px;}
+			border:{top:1px solid $main_color;bottom:1px solid $main_color;}
+		}
 		a{
 			display:table-cell;
 			vertical-align: middle;
