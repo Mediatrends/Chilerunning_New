@@ -59,6 +59,7 @@ aside{
 	@extend .text-center;
 	&.sidebar{
 		@include gridle_hide(phoness tabletss);
+		@include gridle_show(desktopess landscapess);
 		@include gridle(4);
 		h3{
 			font:{size: 20px;}
