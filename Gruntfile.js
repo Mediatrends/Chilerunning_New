@@ -29,8 +29,8 @@ module.exports = function(grunt){
 		sass: {
 			dist: {
 				options: {
-					//style: 'compressed'
-					style: 'nested'
+					style: 'compressed'
+					//style: 'nested'
 				},
 				files: {
 					'app/wp-content/themes/chilerunning_new/css/main.css': 'prod/sass/main.scss'

@@ -4,10 +4,6 @@
 	$(function () {
 		// DOM ready, take it away
 
-
-		$(window).load(function(){
-			$('.header').fadeIn(1000);
-		});
 		//MENU EFFECT - REPEAT ALL -
 		$('.menu-item-4').hover(
 			function(){
@@ -192,6 +188,13 @@
 			render_map( $(this) );
 
 		});
-	});
 
+		$('#menu-item-72 a').before('<svg viewBox="-7.457 1.936 25.812 30.534"><use xlink:href="#svg_icon_menu-entrena"></use></svg>');
+		$('#menu-item-73 a').before('<svg viewBox="151.315 198.005 522.525 339.698"><use xlink:href="#svg_icon_menu-equipa"></use></svg>');
+		$('#menu-item-74 a').before('<svg viewBox="179.293 83.193 431.321 466.187"><use xlink:href="#svg_icon_menu-battery"></use></svg>');
+		$('#menu-item-75 a').before('<svg viewBox="11.993 12.295 26.016 25.412"><use xlink:href="#svg_icon_menu-salud"></use></svg>');
+		$('#menu-item-71 a').before('<i class="fa fa-calendar"></i>');
+
+	});
+	
 } ( this, jQuery ));

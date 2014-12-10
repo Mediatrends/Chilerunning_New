@@ -55,6 +55,15 @@ html{
 		font:{family:$main_font;size:12px;weight:normal;}
 	}
 }
+@include gridle_state(phoness, tabletss){
+	.menu-wrap{z-index: 99;}
+}
+@include gridle_state(desktopess,landscapess){
+	.menu-wrap{z-index: 0;}
+}
+.menu-wrap{
+
+}
 aside{
 	@extend .text-center;
 	&.sidebar{

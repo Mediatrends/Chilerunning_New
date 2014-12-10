@@ -3,7 +3,6 @@ header{
 	@include gridle_parent();
 	@include gridle_clear(both);
 	background:{color:$main_color;}
-	display: none;
 	main{
 		max-width:1170px;
 		@extend .center;
@@ -135,19 +134,22 @@ header{
 			@include gridle_show(desktopess);
 		}
 		.btn_menuph{
-			@include gridle(1);
 			float:right !important;
 			@include gridle_hide(desktopess landscapess);
-			width:64px;
-			height:64px;
-			display: table;
 			background:{color:$main_color_light;}
 			@extend .text-center;
-			i{
-				color:#fff;
-				font: {size:26px;}
-				display: table-cell;
-				vertical:{align: middle;}
+			cursor: pointer;
+			span{
+				@include gridle(1);
+				width:64px;
+				height:64px;
+				display: table;
+				i{
+					color:#fff;
+					font: {size:26px;}
+					display: table-cell;
+					vertical:{align: middle;}
+				}
 			}
 		}
 	}
