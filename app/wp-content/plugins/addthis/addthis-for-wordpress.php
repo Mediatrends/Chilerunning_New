@@ -32,7 +32,7 @@ $pathParts = pathinfo(__FILE__);
 $path = $pathParts['dirname'];
 
 if (!defined('ADDTHIS_PLUGIN_VERSION')) {
-    define('ADDTHIS_PLUGIN_VERSION', '3.5.11');
+    define('ADDTHIS_PLUGIN_VERSION', '4.0.1');
 }
 
 if (!defined('ADDTHIS_ATVERSION')) {
@@ -70,6 +70,9 @@ class Addthis_Wordpress
 
     /** check upgrade or fresh installation **/
     private $_upgrade;
+    
+    /** Addthis Profile id **/
+    private $_pubid;
 
     /**
      * Initializes the plugin.
@@ -83,6 +86,8 @@ class Addthis_Wordpress
         $this->_upgrade = $upgrade;
         $this->_getVariables = $_GET;
         $this->_postVariables = $_POST;
+        
+        $this->_pubid = self::getPubid();
 
         include_once 'addthis-toolbox.php';
         new Addthis_ToolBox;
@@ -177,10 +182,11 @@ class Addthis_Wordpress
      * 
      *  @return string
      */
-    public static function updatePubid($pubId)
+    public function updatePubid($pubId)
     {
         global $addthis_addjs;
         $addthis_addjs->setProfileId($pubId);
+        $this->_pubid = $pubId;
         return "<div class='addthis_updated wrap'>".
                     "AddThis Profile ID updated successfully!!!".
                "</div>";
@@ -280,7 +286,7 @@ class Addthis_Wordpress
                     '<span class="addthis-title">AddThis <sup>*</sup></span>'.
                     '<span class="addthis-name">for WordPress</span>'.
                 '</p>';
-        if ($this->_upgrade && !self::getPubid()) {
+        if ($this->_upgrade && !$this->_pubid) {
             $html .= $this->_getupdateSuccessMessage();
         }
 
@@ -338,14 +344,14 @@ class Addthis_Wordpress
     private function _getAddThisLinkButton()
     {
         $html = '';
-        if (!self::getPubid()) {
+        if (!$this->_pubid) {
             $html  = "<h2>You're almost done!</h2>";
         }
         $html .= "<div class='addthis_description'>".
                  "Beautiful simple website tools designed to help you get ".
                  "likes, get shares, get follows and get discovered. </div>";
         
-        if (!self::getPubid()) {
+        if (!$this->_pubid) {
             // Get pub name
             $pubName = self::_getPubName();
             $html .= "<a class='addthis_button next' ".
@@ -355,23 +361,16 @@ class Addthis_Wordpress
                      "'>Next</a>";
         } else {
 
-		$addthis_options = get_option('addthis_settings');
-		if(isset($addthis_options['above']) && isset($addthis_options['profile'])){
-
-			    $html .= "<a class='addthis_button' target='_blank'".
-				     "href='".self::ADDTHIS_SITE_URL."?cms=wp&pubid=".self::getPubid().
-				     "'>".
-				     "To control your AddThis plugins, click here &#8594;".
-				     "</a>";
-
-		} else {
-			    $html .= "<a class='addthis_button' target='_blank'".
-				     "href='".self::ADDTHIS_SITE_URL_WITH_PUB."/".self::getPubid().
-				     "'>".
-				     "To control your AddThis plugins, click here &#8594;".
-				     "</a>";
-		}            
+            $html .= "<a class='addthis_button' target='_blank'".
+                     "href='".self::ADDTHIS_SITE_URL."?cms=wp&pubid=".$this->_pubid.
+                     "'>".
+                     "To control your AddThis plugins, click here &#8594;".
+                     "</a>";          
         }
+
+       $html .="<p class='addthis_support'> If you don’t see your tools after configuring them in the dashboard, please contact ".
+		"<a href='http://support.addthis.com/'>AddThis Support</a></p>";
+
 
         $html .= "<div class='addthis_seperator'>&nbsp;</div>";
         $html .= "<a href = '".
@@ -460,7 +459,7 @@ class Addthis_Wordpress
         if (isset($this->_getVariables['pubid'])) {
             $pubId = $this->_getVariables['pubid'];
         } else {
-            $pubId = self::getPubid();
+            $pubId = $this->_pubid;
         }
         
         $html .=  "<input type='text' value='".$pubId."' ".

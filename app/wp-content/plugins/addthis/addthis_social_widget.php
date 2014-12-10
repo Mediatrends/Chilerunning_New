@@ -23,7 +23,7 @@
 * Plugin Name: AddThis for WordPress
 * Plugin URI: http://www.addthis.com
 * Description: Use the AddThis suite of website tools which includes sharing, following, recommended content, and conversion tools to help you make your website smarter. With AddThis, you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share, subscribe or follow.
-* Version: 4.0
+* Version: 4.0.1
 *
 * Author: The AddThis Team
 * Author URI: http://www.addthis.com/blog
@@ -2127,8 +2127,8 @@ function addthis_plugin_options_php4() {
     <?php if(isset($addthis_options) && !isset($addthis_options['addthis_for_wordpress'])) { ?>
 
         <div class="addthis_upgrade">
-            <b>You've upgraded successfully. </b>
-            &nbsp;Now sign in to the dashboard to access the full suite of tools from AddThis.
+            <b>Now that you've upgraded your plugin you can access even more AddThis tools. </b>
+            &nbsp;Note: Your tool configurations will be reset.
             &nbsp; <a href="?page=<?php echo basename(__FILE__); ?>&upgrade=addthis_for_wordpress">Get Started</a>
         </div>
 
