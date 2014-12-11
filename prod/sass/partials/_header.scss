@@ -78,11 +78,10 @@ header{
 					}
 				}
 			}
-			
-			@include gridle_state(phoness tabletss){
+			@include gridle_state(phoness tabletss landscapess){
 				display: none;
 			}
-			@include gridle_state(landscapess desktopess){
+			@include gridle_state(desktopess){
 				display: block;
 				padding:{top:25px;}
 			}
@@ -135,7 +134,7 @@ header{
 		}
 		.btn_menuph{
 			float:right !important;
-			@include gridle_hide(desktopess landscapess);
+			@include gridle_hide(desktopess);
 			background:{color:$main_color_light;}
 			@extend .text-center;
 			cursor: pointer;

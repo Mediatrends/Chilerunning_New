@@ -527,7 +527,7 @@
 	}
 	.cont_post_calendar{
 		h1{
-			font:{size:72px;}
+			font:{size:7vmax;}
 			color:$main_color;
 			text:{transform:uppercase;}
 			@extend .text-center;
@@ -546,15 +546,50 @@
 		.meses{
 			@include gridle(12);
 			.meses_cont{
-				@include gridle_clear(both);
+				@include gridle(6, phoness tabletss);
+				@include gridle(12, desktopess landscapess);
+				@include gridle_clear(both, desktopess landscapess);
 				.tit_bar{
 					@extend .barra_titulos;
+					@include gridle_state(phoness tabletss){
+						background:{color:$main_color;}
+						text-align: center;
+						h2{
+							margin:40px 0 20px !important;
+							display: block;
+							padding-left: 0 !important;
+						}
+						.more{
+							float:none;
+							margin: 0 auto 60px;
+						}
+					}
+					@include gridle_state(desktopess landscapess){
+						background:{color:#000;}
+						text-align: left;
+						h2{padding:0 0 0 10px;display: table-cell;margin: 0 !important;}
+						.more{float:right;margin: 0;}
+					}
+					.cacho{
+						@include gridle_state(phoness tabletss){
+							display: none;
+						}
+						@include gridle_state(desktopess landscapess){
+							display: block;
+						}
+					}
 				}
 				.no_post{
 					@include gridle(12);
 					font:{size:14px;}
 					color:$main_color;
 					@extend .text-center;
+					@include gridle_state(phoness tabletss){
+						display: none;
+					}
+					@include gridle_state(desktopess landscapess){
+						display: block;
+					}
 				}
 				.calendar{
 					@include gridle(6);
@@ -606,6 +641,12 @@
 					&.first{
 						height:495px;
 						margin: {bottom:0;}
+					}
+					@include gridle_state(phoness tabletss){
+						display: none;
+					}
+					@include gridle_state(desktopess landscapess){
+						display: block;
 					}
 				}
 			}

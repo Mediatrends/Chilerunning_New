@@ -55,15 +55,6 @@ html{
 		font:{family:$main_font;size:12px;weight:normal;}
 	}
 }
-@include gridle_state(phoness, tabletss){
-	.menu-wrap{z-index: 99;}
-}
-@include gridle_state(desktopess,landscapess){
-	.menu-wrap{z-index: 0;}
-}
-.menu-wrap{
-
-}
 aside{
 	@extend .text-center;
 	&.sidebar{
@@ -148,14 +139,15 @@ aside{
 			span{
 				@include gridle_hide(phoness tabletss);
 				@include gridle_state(desktopess landscapess){
-					display: block;
+					display: table-cell;
+					vertical-align: middle;
 				}
 			}
 			i{
 				@include gridle_state(phoness tabletss){
 					display: table-cell;
 					vertical:{align:middle;}
-					color:#000;
+					color:$main_color;
 					font: {size:18px;}
 				}
 				@include gridle_hide(desktopess landscapess);
@@ -171,6 +163,7 @@ aside{
 				@include border-right-radius(3px);
 				text:{align:center;}
 				display: table;
+				margin:0 auto;
 			}
 			@include gridle_state(desktopess landscapess){
 				background: none;
@@ -179,7 +172,7 @@ aside{
 			}
 		}
 		@include gridle_state(phoness tabletss){
-			background: none;
+			margin: 5px;
 		}
 		@include gridle_state(desktopess landscapess){
 			height:34px;
@@ -187,6 +180,7 @@ aside{
 			background:{color:#333;}
 			display: table;
 			font:{family:$sec_font;size:13px;weight:normal;}
+			margin: 0;
 		}
 	}
 	.cacho{
@@ -196,5 +190,6 @@ aside{
 		width:17px;
 		height:54px;
 		background:{image:url('../img/cacho_left.gif');}
+		display: block;
 	}
 }
