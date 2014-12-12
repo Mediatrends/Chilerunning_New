@@ -373,7 +373,6 @@
 				@include gridle-parent();
 				@include gridle-float(right !important);
 				margin:{bottom:0;}
-				background:{color:$main_color;}
 				@include gridle_hide(phoness tabletss landscapess);
 				@include gridle_show(desktopess);
 			}
@@ -398,6 +397,8 @@
 		@extend .entrena_content;
 		#equipa{
 			@include gridle(4);
+			padding:{bottom: 10px;}
+			height: 460px;
 			.postes{
 				height:259px;
 				position: relative;
@@ -497,9 +498,6 @@
 			}
 			@include gridle(12, phoness);
 			@include gridle(4, tabletss);
-			@include gridle_state(phoness tabletss){
-				padding:{bottom: 10px;}
-			}
 		}
 		.pagination{
 			@include gridle(12);

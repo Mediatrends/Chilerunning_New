@@ -3,28 +3,137 @@
 
 	$(function () {
 		// DOM ready, take it away
-
-		//MENU EFFECT - REPEAT ALL -
-		$('.menu-item-4').hover(
-			function(){
-				$('.menu-item-4').stop(true).append('<svg id="svg_calendar" viewBox="0 0 144.777 144.777"><use xlink:href="#svg_icon_calendar"></use></svg>');
-
-				$('.menu-item-4 a').stop(true).animate({
-					marginTop:10
-				});
-				$('.menu-item-4 svg').stop(true).animate({
-					opacity:1,
-					top:-10
-				});
+		enquire.register('(max-width:1281px)', {
+			match : function() {
+				menu_efect_mobile();
 			},
-			function(){
-				$('.menu-item-4 svg').stop(true).animate({opacity:0,top:0});
-				$('.menu-item-4 a').stop(true).animate({
-					marginTop:0
-				},function(){
-					$('.menu-item-4 svg').remove();
-				});
+			destroy : function() {
+				menu_efect_mobile();
+			}
 		});
+		enquire.register('(min-width:1282px) and (max-width:1920px)', {
+			match : function() {
+				menu_effect();
+			},
+			destroy : function() {
+				menu_effect();
+			}
+		});
+		//MENU EFFECT - REPEAT ALL -
+		function menu_efect_mobile(){
+			$('#menu-item-72 a').before('<svg viewBox="-7.457 1.936 25.812 30.534"><use xlink:href="#svg_icon_menu-entrena"></use></svg>');
+			$('#menu-item-73 a').before('<svg viewBox="151.315 198.005 522.525 339.698"><use xlink:href="#svg_icon_menu-equipa"></use></svg>');
+			$('#menu-item-74 a').before('<svg viewBox="179.293 83.193 431.321 466.187"><use xlink:href="#svg_icon_menu-battery"></use></svg>');
+			$('#menu-item-75 a').before('<svg viewBox="11.993 12.295 26.016 25.412"><use xlink:href="#svg_icon_menu-salud"></use></svg>');
+			$('#menu-item-71 a').before('<svg viewBox="0 0 144.777 144.777"><use xlink:href="#svg_icon_calendar"></use></svg>');
+		}
+		
+		function menu_effect(){
+			$('.menu-item-71').hover(
+				function(){
+					$('.menu-item-71').stop(true).append('<svg id="svg_calendar" viewBox="0 0 144.777 144.777"><use xlink:href="#svg_icon_calendar"></use></svg>');
+
+					$('.menu-item-71 a').stop(true).animate({
+						marginTop:10
+					});
+					$('.menu-item-71 svg').stop(true).animate({
+						opacity:1,
+						top:-10
+					});
+				},
+				function(){
+					$('.menu-item-71 svg').stop(true).animate({opacity:0,top:0});
+					$('.menu-item-71 a').stop(true).animate({
+						marginTop:0
+					},function(){
+						$('.menu-item-71 svg').remove();
+					});
+			});
+
+			$('.menu-item-75').hover(
+				function(){
+					$('.menu-item-75').stop(true).append('<svg id="svg_calendar" viewBox="11.993 12.295 26.016 25.412"><use xlink:href="#svg_icon_menu-salud"></use></svg>');
+
+					$('.menu-item-75 a').stop(true).animate({
+						marginTop:10
+					});
+					$('.menu-item-75 svg').stop(true).animate({
+						opacity:1,
+						top:-10
+					});
+				},
+				function(){
+					$('.menu-item-75 svg').stop(true).animate({opacity:0,top:0});
+					$('.menu-item-75 a').stop(true).animate({
+						marginTop:0
+					},function(){
+						$('.menu-item-75 svg').remove();
+					});
+			});
+
+			$('.menu-item-74').hover(
+				function(){
+					$('.menu-item-74').stop(true).append('<svg id="svg_calendar" viewBox="179.293 83.193 431.321 466.187"><use xlink:href="#svg_icon_menu-battery"></use></svg>');
+
+					$('.menu-item-74 a').stop(true).animate({
+						marginTop:10
+					});
+					$('.menu-item-74 svg').stop(true).animate({
+						opacity:1,
+						top:-10
+					});
+				},
+				function(){
+					$('.menu-item-74 svg').stop(true).animate({opacity:0,top:0});
+					$('.menu-item-74 a').stop(true).animate({
+						marginTop:0
+					},function(){
+						$('.menu-item-74 svg').remove();
+					});
+			});
+
+			$('.menu-item-73').hover(
+				function(){
+					$('.menu-item-73').stop(true).append('<svg id="svg_calendar" viewBox="151.315 198.005 522.525 339.698"><use xlink:href="#svg_icon_menu-equipa"></use></svg>');
+
+					$('.menu-item-73 a').stop(true).animate({
+						marginTop:10
+					});
+					$('.menu-item-73 svg').stop(true).animate({
+						opacity:1,
+						top:-10
+					});
+				},
+				function(){
+					$('.menu-item-73 svg').stop(true).animate({opacity:0,top:0});
+					$('.menu-item-73 a').stop(true).animate({
+						marginTop:0
+					},function(){
+						$('.menu-item-73 svg').remove();
+					});
+			});
+
+			$('.menu-item-72').hover(
+				function(){
+					$('.menu-item-72').stop(true).append('<svg id="svg_calendar" viewBox="-7.457 1.936 25.812 30.534"><use xlink:href="#svg_icon_menu-entrena"></use></svg>');
+
+					$('.menu-item-72 a').stop(true).animate({
+						marginTop:10
+					});
+					$('.menu-item-72 svg').stop(true).animate({
+						opacity:1,
+						top:-10
+					});
+				},
+				function(){
+					$('.menu-item-72 svg').stop(true).animate({opacity:0,top:0});
+					$('.menu-item-72 a').stop(true).animate({
+						marginTop:0
+					},function(){
+						$('.menu-item-72 svg').remove();
+					});
+			});
+		}
 
 		//SWIPE SLIDER 
 		window.mySwipe = new Swipe(document.getElementById('slider'), {
@@ -188,12 +297,6 @@
 			render_map( $(this) );
 
 		});
-
-		$('#menu-item-72 a').before('<svg viewBox="-7.457 1.936 25.812 30.534"><use xlink:href="#svg_icon_menu-entrena"></use></svg>');
-		$('#menu-item-73 a').before('<svg viewBox="151.315 198.005 522.525 339.698"><use xlink:href="#svg_icon_menu-equipa"></use></svg>');
-		$('#menu-item-74 a').before('<svg viewBox="179.293 83.193 431.321 466.187"><use xlink:href="#svg_icon_menu-battery"></use></svg>');
-		$('#menu-item-75 a').before('<svg viewBox="11.993 12.295 26.016 25.412"><use xlink:href="#svg_icon_menu-salud"></use></svg>');
-		$('#menu-item-71 a').before('<i class="fa fa-calendar"></i>');
 
 	});
 	
