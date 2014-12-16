@@ -8,7 +8,7 @@ Description: default post type
 	
 	<div class="share_contsingle">
 
-		<div class="addthis_toolbox addthis_default_style ">
+		<!--div class="addthis_toolbox addthis_default_style ">
 
 			<div class="count_share">
 				<span class="atcounter"></span>
@@ -31,7 +31,9 @@ Description: default post type
 				<a class="addthis_button_compact"><i class="fa fa-plus"></i></a>
 			</div>
 		    
-		</div>
+		</div-->
+
+		<?php mashsharer(); ?>
 
 	</div>
 
