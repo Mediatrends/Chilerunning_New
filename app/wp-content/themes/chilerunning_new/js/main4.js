@@ -11,8 +11,8 @@
 (function() {
 
 	var bodyEl = document.body,
-		content = document.querySelector( '.content-wrap' ),
-		openbtn = document.getElementById( 'open-button' ),
+		//content = document.querySelector( '.content-wrap' ),
+		openbtn = document.getElementById( 'open-button' ).addEventListener( 'click', toggleMenu ),
 		closebtn = document.getElementById( 'close-button' ),
 		isOpen = false,
 
@@ -29,18 +29,20 @@
 	}
 
 	function initEvents() {
-		openbtn.addEventListener( 'click', toggleMenu );
+		openbtn;
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 		}
 
 		// close the menu element if the target it´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
+		/*content.addEventListener('click', function(ev){
+
 			var target = ev.target;
 			if( isOpen && target !== openbtn ) {
 				toggleMenu();
 			}
-		} );
+
+		});*/
 	}
 
 	function toggleMenu() {

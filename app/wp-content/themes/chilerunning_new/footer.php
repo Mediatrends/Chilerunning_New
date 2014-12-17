@@ -56,16 +56,15 @@
 			
 		</footer>
 		<!-- /footer -->
-
-		<?php wp_footer(); ?>
-
 		<script src="<?php echo get_template_directory_uri(); ?>/js/swipe.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettySocial.min.js"></script>
-		
 		<script src="<?php echo get_template_directory_uri(); ?>/js/snap.svg-min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/classie.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/main4.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/enquire.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettySocial.min.js"></script>
+		<?php wp_footer(); ?>
+
+		
 
 		<!-- analytics -->
 		<script>

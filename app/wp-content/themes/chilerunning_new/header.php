@@ -37,7 +37,7 @@
 
 		<div class="menu-wrap">
 
-			<nav class="menu">
+			<nav class="menu" style="overflow: scroll;position: relative;height: 100%;padding-top: 20px;">
 
 				<?php get_template_part('searchform'); ?>
 				

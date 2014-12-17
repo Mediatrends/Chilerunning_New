@@ -3,6 +3,7 @@
 
 	$(function () {
 		// DOM ready, take it away
+
 		enquire.register('(max-width:1281px)', {
 			match : function() {
 				menu_efect_mobile();
@@ -197,7 +198,7 @@
 		});
 
 		//addthis counter
-    	addthis.counter(".atcounter");
+    	//addthis.counter(".atcounter");
 
     	//social share alone
     	$('.prettySocial').prettySocial();
