@@ -55,7 +55,7 @@
 	transition: transform 0.4s;
 	z-index: 99;
 }
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
 	.menu-wrap{
 		display: none !important;
 	}
