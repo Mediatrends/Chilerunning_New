@@ -1,4 +1,3 @@
-
 <div class="motiva_content">
 	
 	<div class="tit_bar">
@@ -13,6 +12,14 @@
 			</a>
 		</div>
 
+	</div>
+	
+	<div id="slot02_ad" title="Publicidad Disponible">
+		<div id='div-gpt-ad-345692103987789506-2' style="width:300px;margin:0 auto;">
+			<script type='text/javascript'>
+				googletag.display('div-gpt-ad-345692103987789506-2');
+			</script>
+		</div>
 	</div>
 
 	<?php $query = new WP_Query('posts_per_page=4&category_name=motivacion'); ?>

@@ -1,4 +1,4 @@
-	<div class="entrena_content">
+<div class="entrena_content">
 	
 	<div class="tit_bar">
 	
@@ -13,6 +13,14 @@
 			</a>
 		</div>
 
+	</div>
+	
+	<div id="slot01_ad">
+		<div id='div-gpt-ad-345692103987789506-1' style="width:300px;margin:0 auto;">
+			<script type='text/javascript'>
+				googletag.display('div-gpt-ad-345692103987789506-1');
+			</script>
+		</div>
 	</div>
 
 	<?php $query = new WP_Query('posts_per_page=4&category_name=entrenamiento'); ?>

@@ -44,6 +44,9 @@ module.exports = function(grunt){
 		},
 
 		uglify:{
+			options:{
+				beautify:true
+			},
 			all:{
 				files:{
 			        'app/wp-content/themes/chilerunning_new/js/output.min.js': ['prod/js/scripts.js']
