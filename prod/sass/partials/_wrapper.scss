@@ -371,15 +371,15 @@
 					display: block;
 				}
 			}
-			&.entrena_ad{
-				height:250px;
-				@include gridle(3+1/2);
-				@include gridle-parent();
-				@include gridle-float(right !important);
-				margin:{bottom:0;}
-				@include gridle_hide(phoness tabletss landscapess);
-				@include gridle_show(desktopess);
-			}
+		}
+		#slot01_ad{
+			height:250px;
+			@include gridle(3+1/2);
+			@include gridle-parent();
+			@include gridle-float(right !important);
+			margin:{bottom:0;}
+			@include gridle_hide(phoness tabletss landscapess);
+			@include gridle_show(desktopess);
 		}
 	}
 	.motiva_content{
@@ -392,9 +392,9 @@
 			&.last_mot{
 				@extend .last;
 			}
-			&.motiva_ad{
-				@extend .entrena_ad;
-			}
+		}
+		#slot02_ad{
+			@extend #slot01_ad;
 		}
 	}
 	.equipa_content{

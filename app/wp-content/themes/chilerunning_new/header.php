@@ -11,7 +11,7 @@
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="<?php bloginfo('description'); ?>">
+		<!--meta name="description" content="<?php bloginfo('description'); ?>"-->
 		
 		<?php wp_head(); ?>
 
@@ -30,6 +30,40 @@
         });
         </script>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu_bubble.css">
+
+        <!-- Start: GPT Sync -->
+		<script type='text/javascript'>
+			var gptadslots=[];
+			(function(){
+				var useSSL = 'https:' == document.location.protocol;
+				var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+				document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+			})();
+		</script>
+
+		<script type="text/javascript">
+		
+				//Adslot 1 declaration
+				gptadslots[1]= googletag.defineSlot('/92947493/300x250_CR', [[300,250]],'div-gpt-ad-345692103987789506-1').addService(googletag.pubads());
+
+				//Adslot 2 declaration
+				gptadslots[2]= googletag.defineSlot('/92947493/300x250_CR-2', [[300,250]],'div-gpt-ad-345692103987789506-2').addService(googletag.pubads());
+
+				//Adslot 3 declaration
+				gptadslots[3]= googletag.defineSlot('/92947493/300x250_CR_sidebar', [[300,250]],'div-gpt-ad-345692103987789506-3').addService(googletag.pubads());
+
+				//Adslot 4 declaration
+				gptadslots[4]= googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [[300,250]],'div-gpt-ad-345692103987789506-4').addService(googletag.pubads());
+
+				//Adslot 5 declaration
+				gptadslots[5]= googletag.defineSlot('/92947493/728x90_CR_ALL', [[728,90]],'div-gpt-ad-345692103987789506-5').addService(googletag.pubads());
+
+				googletag.pubads().enableSingleRequest();
+				googletag.pubads().enableSyncRendering();
+				googletag.enableServices();
+
+		</script>
+		<!-- End: GPT -->
 	</head>
 	<body <?php body_class(); ?>>
 		
@@ -115,4 +149,12 @@
 		<!-- wrapper -->
 		<div class="wrapper">
 
-			<div id="block_728x90_head" class="adblocks_728x90 hide"></div>
+			<div id="block_728x90_head" class="adblocks_728x90">
+				
+				<div id='div-gpt-ad-345692103987789506-5'>
+					<script type='text/javascript'>
+						googletag.display('div-gpt-ad-345692103987789506-5');
+					</script>
+				</div>
+				
+			</div>

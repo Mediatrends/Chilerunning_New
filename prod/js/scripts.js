@@ -148,18 +148,13 @@
 		  transitionEnd: function(index, elem) {}
 		});
 
+
 		//BOXES LOOPS
 		$('.wrapper #entrena').last().addClass('last');
 		$('.wrapper #entrena').first().addClass('first');
-		$('.wrapper #entrena.first').after(
-			'<div id="entrena" class="entrena_ad"></div>'
-		);
 
 		$('.wrapper #motiva').last().addClass('last_mot');
 		$('.wrapper #motiva').first().addClass('first_mot');
-		$('.wrapper #motiva.first_mot').after(
-			'<div id="motiva" class="motiva_ad"></div>'
-		);
 
 		$('.wrapper .cont_post_calendar .meses .meses_cont .calendar').first().addClass('first');
 
