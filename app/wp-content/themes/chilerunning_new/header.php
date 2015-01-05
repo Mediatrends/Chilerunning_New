@@ -58,7 +58,6 @@
 				//Adslot 5 declaration
 				gptadslots[5]= googletag.defineSlot('/92947493/728x90_CR_ALL', [[728,90]],'div-gpt-ad-345692103987789506-5').addService(googletag.pubads());
 
-				googletag.pubads().enableSingleRequest();
 				googletag.pubads().enableSyncRendering();
 				googletag.enableServices();
 
@@ -71,7 +70,7 @@
 
 		<div class="menu-wrap">
 
-			<nav class="menu" style="overflow: scroll;position: relative;height: 100%;padding-top: 20px;">
+			<nav class="menu" style="overflow: scroll;position: relative;height: 80%;padding-top: 20px;">
 
 				<?php get_template_part('searchform'); ?>
 				

@@ -1,5 +1,6 @@
 module.exports = function(grunt){
-
+	require('jit-grunt')(grunt);
+	
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
@@ -12,14 +13,14 @@ module.exports = function(grunt){
 			},
 			sass:{
 				files:['prod/sass/**/*.scss'],
-				tasks: ['sass'],
+				tasks: ['sass:deve'],
 				options:{
 					livereload:true,
 				},
 			},
 			javascript:{
 				files:['prod/js/**/*.js','Gruntfile.js'],
-				tasks:['jshint','uglify'],
+				tasks:['jshint','uglify:beauty'],
 				options:{
 					livereload:true,
 				},
@@ -27,10 +28,17 @@ module.exports = function(grunt){
 		},
 
 		sass: {
+			deve: {
+				options: {
+					style: 'nested'
+				},
+				files: {
+					'app/wp-content/themes/chilerunning_new/css/main.css': 'prod/sass/main.scss'
+				},
+			},
 			dist: {
 				options: {
 					style: 'compressed'
-					//style: 'nested'
 				},
 				files: {
 					'app/wp-content/themes/chilerunning_new/css/main.css': 'prod/sass/main.scss'
@@ -44,8 +52,10 @@ module.exports = function(grunt){
 		},
 
 		uglify:{
-			options:{
-				beautify:true
+			beauty:{
+				options:{
+					beautify:true
+				}	
 			},
 			all:{
 				files:{
@@ -61,6 +71,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('dev', ['watch']);
-	grunt.registerTask('default', ['sass','uglify']);
+	grunt.registerTask('default', ['sass:dist','uglify:all']);
 
 };
