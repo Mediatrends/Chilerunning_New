@@ -2,34 +2,38 @@
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
+		<meta name="google-site-verification" content="B1wY8HTiBtcVzb13_Ucqxv4ge3PHMDGysWvZFJO_ar4" />
+		
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' : '; } ?><?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
+
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.svg" rel="icon" type="image/svg+xml">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--meta name="description" content="<?php bloginfo('description'); ?>"-->
-		
-		<?php wp_head(); ?>
 
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
+
 		<!--FONTS-->
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-		<script>
-        // conditionizr.com
-        // configure environment tests
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-        </script>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu_bubble.css">
+
+        <!-- analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-51156134-2', 'auto');
+		  ga('require', 'displayfeatures');
+		  ga('send', 'pageview');
+
+		</script>
 
         <!-- Start: GPT Sync -->
 		<script type='text/javascript'>
@@ -42,25 +46,18 @@
 		</script>
 
 		<script type="text/javascript">
-		
-				//Adslot 1 declaration
-				gptadslots[1]= googletag.defineSlot('/92947493/300x250_CR', [[300,250]],'div-gpt-ad-345692103987789506-1').addService(googletag.pubads());
-
-				//Adslot 2 declaration
-				gptadslots[2]= googletag.defineSlot('/92947493/300x250_CR-2', [[300,250]],'div-gpt-ad-345692103987789506-2').addService(googletag.pubads());
-
-				//Adslot 3 declaration
-				gptadslots[3]= googletag.defineSlot('/92947493/300x250_CR_sidebar', [[300,250]],'div-gpt-ad-345692103987789506-3').addService(googletag.pubads());
-
-				//Adslot 4 declaration
-				gptadslots[4]= googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [[300,250]],'div-gpt-ad-345692103987789506-4').addService(googletag.pubads());
-
-				//Adslot 5 declaration
-				gptadslots[5]= googletag.defineSlot('/92947493/728x90_CR_ALL', [[728,90]],'div-gpt-ad-345692103987789506-5').addService(googletag.pubads());
-
-				googletag.pubads().enableSyncRendering();
-				googletag.enableServices();
-
+			//Adslot 1 declaration
+			gptadslots[1]= googletag.defineSlot('/92947493/300x250_CR', [[300,250]],'div-gpt-ad-345692103987789506-1').addService(googletag.pubads());
+			//Adslot 2 declaration
+			gptadslots[2]= googletag.defineSlot('/92947493/300x250_CR-2', [[300,250]],'div-gpt-ad-345692103987789506-2').addService(googletag.pubads());
+			//Adslot 3 declaration
+			gptadslots[3]= googletag.defineSlot('/92947493/300x250_CR_sidebar', [[300,250]],'div-gpt-ad-345692103987789506-3').addService(googletag.pubads());
+			//Adslot 4 declaration
+			gptadslots[4]= googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [[300,250]],'div-gpt-ad-345692103987789506-4').addService(googletag.pubads());
+			//Adslot 5 declaration
+			gptadslots[5]= googletag.defineSlot('/92947493/728x90_CR_ALL', [[728,90]],'div-gpt-ad-345692103987789506-5').addService(googletag.pubads());
+			googletag.pubads().enableSyncRendering();
+			googletag.enableServices();
 		</script>
 		<!-- End: GPT -->
 	</head>
