@@ -16,9 +16,10 @@
 	</div>
 	
 	<div id="slot01_ad">
-		<div id='div-gpt-ad-345692103987789506-1' style="width:300px;margin:0 auto;">
+		<!-- 300x250_CR -->
+		<div id='div-gpt-ad-1422995182189-0' style='width:300px;margin:0 auto;'>
 			<script type='text/javascript'>
-				googletag.display('div-gpt-ad-345692103987789506-1');
+			googletag.display('div-gpt-ad-1422995182189-0');
 			</script>
 		</div>
 	</div>

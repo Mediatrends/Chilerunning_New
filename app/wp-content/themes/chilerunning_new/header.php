@@ -21,7 +21,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu_bubble.css">
-
+		
+		<?php wp_head(); ?>
         <!-- analytics -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,31 +36,27 @@
 
 		</script>
 
-        <!-- Start: GPT Sync -->
-		<script type='text/javascript'>
-			var gptadslots=[];
-			(function(){
-				var useSSL = 'https:' == document.location.protocol;
-				var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-				document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+        <script type='text/javascript'>
+			(function() {
+			var useSSL = 'https:' == document.location.protocol;
+			var src = (useSSL ? 'https:' : 'http:') +
+			'//www.googletagservices.com/tag/js/gpt.js';
+			document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
 			})();
 		</script>
 
-		<script type="text/javascript">
-			//Adslot 1 declaration
-			gptadslots[1]= googletag.defineSlot('/92947493/300x250_CR', [[300,250]],'div-gpt-ad-345692103987789506-1').addService(googletag.pubads());
-			//Adslot 2 declaration
-			gptadslots[2]= googletag.defineSlot('/92947493/300x250_CR-2', [[300,250]],'div-gpt-ad-345692103987789506-2').addService(googletag.pubads());
-			//Adslot 3 declaration
-			gptadslots[3]= googletag.defineSlot('/92947493/300x250_CR_sidebar', [[300,250]],'div-gpt-ad-345692103987789506-3').addService(googletag.pubads());
-			//Adslot 4 declaration
-			gptadslots[4]= googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [[300,250]],'div-gpt-ad-345692103987789506-4').addService(googletag.pubads());
-			//Adslot 5 declaration
-			gptadslots[5]= googletag.defineSlot('/92947493/728x90_CR_ALL', [[728,90]],'div-gpt-ad-345692103987789506-5').addService(googletag.pubads());
+		<script type='text/javascript'>
+			googletag.defineSlot('/92947493/300x250_CR', [300, 250], 'div-gpt-ad-1422995182189-0').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/300x250_CR-2', [300, 250], 'div-gpt-ad-1422995182189-1').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/300x250_CR_sidebar', [300, 250], 'div-gpt-ad-1422995182189-2').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [300, 250], 'div-gpt-ad-1422995182189-3').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/728X90_CR', [728, 90], 'div-gpt-ad-1422995182189-4').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/728x90_CR_cont', [728, 90], 'div-gpt-ad-1422995182189-5').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/728x90_CONT-SINGLE', [728, 90], 'div-gpt-ad-1422996912354-0').addService(googletag.pubads());
+			googletag.defineSlot('/92947493/970x90_CR_ALL', [970, 90], 'div-gpt-ad-1422995182189-6').addService(googletag.pubads());
 			googletag.pubads().enableSyncRendering();
 			googletag.enableServices();
 		</script>
-		<!-- End: GPT -->
 	</head>
 	<body <?php body_class(); ?>>
 		
@@ -144,13 +141,3 @@
 
 		<!-- wrapper -->
 		<div class="wrapper">
-
-			<div id="block_728x90_head" class="adblocks_728x90">
-				
-				<div id='div-gpt-ad-345692103987789506-5'>
-					<script type='text/javascript'>
-						googletag.display('div-gpt-ad-345692103987789506-5');
-					</script>
-				</div>
-				
-			</div>

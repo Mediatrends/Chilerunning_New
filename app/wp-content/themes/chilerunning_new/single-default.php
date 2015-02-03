@@ -37,6 +37,17 @@ Description: default post type
 
 	</div>
 
+	<div id="block_728x90_03" class="adblocks_728x90-single">
+
+		<!-- 728x90_CR_CONT-SINGLE -->
+		<div id='div-gpt-ad-1422996912354-0' style='width:728px;'>
+		<script type='text/javascript'>
+		googletag.display('div-gpt-ad-1422996912354-0');
+		</script>
+		</div>
+
+	</div>
+
 	<div class="inner_tit_bar">
 	
 		<span class="cacho"></span>

@@ -57,8 +57,6 @@
 		</footer>
 		<!-- /footer -->
 
-		<?php wp_head(); ?>
-
 		<script src="<?php echo get_template_directory_uri(); ?>/js/swipe.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/snap.svg-min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/classie.js"></script>

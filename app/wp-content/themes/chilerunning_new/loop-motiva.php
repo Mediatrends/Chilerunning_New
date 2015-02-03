@@ -15,9 +15,10 @@
 	</div>
 	
 	<div id="slot02_ad" title="Publicidad Disponible">
-		<div id='div-gpt-ad-345692103987789506-2' style="width:300px;margin:0 auto;">
+		<!-- 300x250_CR-2 -->
+		<div id='div-gpt-ad-1422995182189-1' style='width:300px;margin:0 auto;'>
 			<script type='text/javascript'>
-				googletag.display('div-gpt-ad-345692103987789506-2');
+			googletag.display('div-gpt-ad-1422995182189-1');
 			</script>
 		</div>
 	</div>
@@ -30,7 +31,7 @@
 		
 			<div id="motiva">
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class('postes'); ?> style="background-image:url(<?php echo $feat_image;?>);">
+				<article id="post-<?php the_ID(); ?>" <?php post_class('postes'); ?>>
 
 					<div class="alt_link"><i class="fa fa-share"></i></div>
 
