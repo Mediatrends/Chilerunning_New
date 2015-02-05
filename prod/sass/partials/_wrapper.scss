@@ -529,6 +529,7 @@
 		@extend .barra_titulos;
 	}
 	.cont_post_calendar{
+		position: relative;
 		h1{
 			font:{size:7vmax;}
 			color:$main_color;

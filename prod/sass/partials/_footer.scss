@@ -5,6 +5,7 @@
 	margin:{top:20px;}
 	border:{top:10px;left:0;right:0;bottom:0;style:solid;color:$alt_color;}
 	background:{color:$main_color;}
+	position: relative;
 	.content{
 		max-width:1170px;
 		@extend .center;

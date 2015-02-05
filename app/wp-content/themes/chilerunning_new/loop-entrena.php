@@ -16,11 +16,11 @@
 	</div>
 	
 	<div id="slot01_ad">
-		<!-- 300x250_CR -->
-		<div id='div-gpt-ad-1422995182189-0' style='width:300px;margin:0 auto;'>
-			<script type='text/javascript'>
-			googletag.display('div-gpt-ad-1422995182189-0');
-			</script>
+		<!-- 300x250_CR-2 -->
+		<div id='div-gpt-ad-1422999910910-1'>
+		<script type='text/javascript'>
+		googletag.display('div-gpt-ad-1422999910910-1');
+		</script>
 		</div>
 	</div>
 

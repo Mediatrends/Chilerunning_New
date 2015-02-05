@@ -3,6 +3,8 @@
 	
 	<?php get_template_part('loop-slider'); ?>
 
+	<?php include (TEMPLATEPATH . '/970x90_all-ad.php'); ?>
+
 	<div class="equipa_content">
 	
 		<div class="tit_bar">

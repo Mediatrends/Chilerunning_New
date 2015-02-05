@@ -3270,68 +3270,18 @@ aside.sidebar {
         .wrapper .equipa_content .pagination ul li a {
           color: #fff;
           text-decoration: none; }
-  .wrapper .cont_post_calendar h1 {
-    font-size: 7vmax;
-    color: #2B3787;
-    text-transform: uppercase; }
-  .wrapper .cont_post_calendar i.fa-calendar {
-    font-size: 57px;
-    color: #26FF26;
-    width: 57px;
-    display: block; }
-  .wrapper .cont_post_calendar .meses {
-    float: left;
-    direction: ltr;
-    padding-left: 10px;
-    padding-right: 10px;
-    float: left;
-    direction: ltr;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%; }
-    @media screen and (max-width: 480px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media screen and (min-width: 481px) and (max-width: 1024px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 0;
-        padding-right: 0; } }
-    @media screen and (max-width: 640px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media screen and (min-width: 641px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media screen and (min-width: 1024px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    @media screen and (min-width: 1280px) {
-      .wrapper .cont_post_calendar .meses {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px; } }
-    .wrapper .cont_post_calendar .meses .meses_cont {
+  .wrapper .cont_post_calendar {
+    position: relative; }
+    .wrapper .cont_post_calendar h1 {
+      font-size: 7vmax;
+      color: #2B3787;
+      text-transform: uppercase; }
+    .wrapper .cont_post_calendar i.fa-calendar {
+      font-size: 57px;
+      color: #26FF26;
+      width: 57px;
+      display: block; }
+    .wrapper .cont_post_calendar .meses {
       float: left;
       direction: ltr;
       padding-left: 10px;
@@ -3340,173 +3290,50 @@ aside.sidebar {
       direction: ltr;
       padding-left: 10px;
       padding-right: 10px;
-      float: left;
-      direction: ltr;
-      padding-left: 10px;
-      padding-right: 10px;
-      float: left;
-      direction: ltr;
-      padding-left: 10px;
-      padding-right: 10px; }
+      width: 100%; }
       @media screen and (max-width: 480px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
       @media screen and (min-width: 481px) and (max-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 0;
           padding-right: 0; } }
       @media screen and (max-width: 640px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
       @media screen and (min-width: 641px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
       @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
       @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
+        .wrapper .cont_post_calendar .meses {
           float: left;
           direction: ltr;
           padding-left: 10px;
           padding-right: 10px; } }
-      @media screen and (max-width: 640px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          width: 50%; } }
-      @media screen and (min-width: 641px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          width: 50%; } }
-      @media screen and (max-width: 480px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media screen and (min-width: 481px) and (max-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 0;
-          padding-right: 0; } }
-      @media screen and (max-width: 640px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media screen and (min-width: 641px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          float: left;
-          direction: ltr;
-          padding-left: 10px;
-          padding-right: 10px; } }
-      @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          width: 100%; } }
-      @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          width: 100%; } }
-      @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          clear: both; } }
-      @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont {
-          clear: both; } }
-      @media screen and (max-width: 640px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
-          background-color: #2B3787;
-          text-align: center; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
-            margin: 40px 0 20px !important;
-            display: block;
-            padding-left: 0 !important; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
-            float: none;
-            margin: 0 auto 60px; } }
-      @media screen and (min-width: 641px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
-          background-color: #2B3787;
-          text-align: center; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
-            margin: 40px 0 20px !important;
-            display: block;
-            padding-left: 0 !important; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
-            float: none;
-            margin: 0 auto 60px; } }
-      @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
-          background-color: #000;
-          text-align: left; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
-            padding: 0 0 0 10px;
-            display: table-cell;
-            margin: 0 !important; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
-            float: right;
-            margin: 0; } }
-      @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
-          background-color: #000;
-          text-align: left; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
-            padding: 0 0 0 10px;
-            display: table-cell;
-            margin: 0 !important; }
-          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
-            float: right;
-            margin: 0; } }
-      @media screen and (max-width: 640px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
-          display: none; } }
-      @media screen and (min-width: 641px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
-          display: none; } }
-      @media screen and (min-width: 1280px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
-          display: block; } }
-      @media screen and (min-width: 1024px) {
-        .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
-          display: block; } }
-      .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+      .wrapper .cont_post_calendar .meses .meses_cont {
         float: left;
         direction: ltr;
         padding-left: 10px;
@@ -3515,214 +3342,389 @@ aside.sidebar {
         direction: ltr;
         padding-left: 10px;
         padding-right: 10px;
-        width: 100%;
-        font-size: 14px;
-        color: #2B3787; }
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px; }
         @media screen and (max-width: 480px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 481px) and (max-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 0;
             padding-right: 0; } }
         @media screen and (max-width: 640px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 641px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 1280px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (max-width: 640px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
-            display: none; } }
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            width: 50%; } }
         @media screen and (min-width: 641px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
-            display: none; } }
-        @media screen and (min-width: 1280px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
-            display: block; } }
-        @media screen and (min-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .no_post {
-            display: block; } }
-      .wrapper .cont_post_calendar .meses .meses_cont .calendar {
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px;
-        float: left;
-        direction: ltr;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 50%;
-        height: 235px;
-        margin-bottom: 26px; }
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            width: 50%; } }
         @media screen and (max-width: 480px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 481px) and (max-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 0;
             padding-right: 0; } }
         @media screen and (max-width: 640px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 641px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
         @media screen and (min-width: 1280px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont {
             float: left;
             direction: ltr;
             padding-left: 10px;
             padding-right: 10px; } }
-        .wrapper .cont_post_calendar .meses .meses_cont .calendar a {
-          background-size: cover;
-          background-position: center;
-          width: 100%;
-          height: 100%;
-          display: block;
-          overflow: hidden;
-          position: relative; }
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-            float: left;
-            direction: ltr;
-            padding-left: 10px;
-            padding-right: 10px;
-            float: left;
-            direction: ltr;
-            padding-left: 10px;
-            padding-right: 10px;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-            padding-bottom: 10px;
-            background-color: rgba(44, 55, 127, 0.6); }
-            @media screen and (max-width: 480px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            @media screen and (min-width: 481px) and (max-width: 1024px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 0;
-                padding-right: 0; } }
-            @media screen and (max-width: 640px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            @media screen and (min-width: 641px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            @media screen and (min-width: 1024px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            @media screen and (min-width: 1280px) {
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
-                float: left;
-                direction: ltr;
-                padding-left: 10px;
-                padding-right: 10px; } }
-            .wrapper .cont_post_calendar .meses .meses_cont .calendar a main:hover {
-              background-color: #2B3787; }
-            .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3 {
-              font-size: 25px;
-              color: #fff; }
-            .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data {
-              color: #fff;
-              font-size: 14px; }
-              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data .data_event, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data .place {
-                display: inline-block; }
-            .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .more {
+        @media screen and (min-width: 1280px) {
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            width: 100%; } }
+        @media screen and (min-width: 1024px) {
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            width: 100%; } }
+        @media screen and (min-width: 1280px) {
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            clear: both; } }
+        @media screen and (min-width: 1024px) {
+          .wrapper .cont_post_calendar .meses .meses_cont {
+            clear: both; } }
+        @media screen and (max-width: 640px) {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
+            background-color: #2B3787;
+            text-align: center; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
+              margin: 40px 0 20px !important;
+              display: block;
+              padding-left: 0 !important; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
+              float: none;
+              margin: 0 auto 60px; } }
+        @media screen and (min-width: 641px) {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
+            background-color: #2B3787;
+            text-align: center; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
+              margin: 40px 0 20px !important;
+              display: block;
+              padding-left: 0 !important; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
+              float: none;
+              margin: 0 auto 60px; } }
+        @media screen and (min-width: 1280px) {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
+            background-color: #000;
+            text-align: left; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
+              padding: 0 0 0 10px;
+              display: table-cell;
+              margin: 0 !important; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
               float: right;
-              width: 54px;
-              height: 18px;
-              color: #2B3787;
-              font-size: 12px;
-              font-weight: bold;
-              background-color: #fff; }
-        .wrapper .cont_post_calendar .meses .meses_cont .calendar.first, .wrapper .cont_post_calendar .meses .meses_cont .entrena_content .calendar#entrena.last, .wrapper .entrena_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#entrena.last, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .equipa_content .calendar#entrena.last, .wrapper .equipa_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar.last#motiva, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar.last#motiva, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#motiva.last_mot, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#motiva.last_mot, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#motiva.first_mot, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#motiva.first_mot {
-          height: 495px;
-          margin-bottom: 0; }
+              margin: 0; } }
+        @media screen and (min-width: 1024px) {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar {
+            background-color: #000;
+            text-align: left; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2 {
+              padding: 0 0 0 10px;
+              display: table-cell;
+              margin: 0 !important; }
+            .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .more {
+              float: right;
+              margin: 0; } }
         @media screen and (max-width: 640px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
             display: none; } }
         @media screen and (min-width: 641px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
             display: none; } }
         @media screen and (min-width: 1280px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
             display: block; } }
         @media screen and (min-width: 1024px) {
-          .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          .wrapper .cont_post_calendar .meses .meses_cont .tit_bar .cacho {
             display: block; } }
+        .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 100%;
+          font-size: 14px;
+          color: #2B3787; }
+          @media screen and (max-width: 480px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 481px) and (max-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 0;
+              padding-right: 0; } }
+          @media screen and (max-width: 640px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 641px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 1280px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (max-width: 640px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              display: none; } }
+          @media screen and (min-width: 641px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              display: none; } }
+          @media screen and (min-width: 1280px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              display: block; } }
+          @media screen and (min-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .no_post {
+              display: block; } }
+        .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 50%;
+          height: 235px;
+          margin-bottom: 26px; }
+          @media screen and (max-width: 480px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 481px) and (max-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 0;
+              padding-right: 0; } }
+          @media screen and (max-width: 640px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 641px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          @media screen and (min-width: 1280px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px; } }
+          .wrapper .cont_post_calendar .meses .meses_cont .calendar a {
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            display: block;
+            overflow: hidden;
+            position: relative; }
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px;
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px;
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+              padding-bottom: 10px;
+              background-color: rgba(44, 55, 127, 0.6); }
+              @media screen and (max-width: 480px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              @media screen and (min-width: 481px) and (max-width: 1024px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 0;
+                  padding-right: 0; } }
+              @media screen and (max-width: 640px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              @media screen and (min-width: 641px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              @media screen and (min-width: 1024px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              @media screen and (min-width: 1280px) {
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main {
+                  float: left;
+                  direction: ltr;
+                  padding-left: 10px;
+                  padding-right: 10px; } }
+              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main:hover {
+                background-color: #2B3787; }
+              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3 {
+                font-size: 25px;
+                color: #fff; }
+              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data {
+                color: #fff;
+                font-size: 14px; }
+                .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data .data_event, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .data .place {
+                  display: inline-block; }
+              .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .more {
+                float: right;
+                width: 54px;
+                height: 18px;
+                color: #2B3787;
+                font-size: 12px;
+                font-weight: bold;
+                background-color: #fff; }
+          .wrapper .cont_post_calendar .meses .meses_cont .calendar.first, .wrapper .cont_post_calendar .meses .meses_cont .entrena_content .calendar#entrena.last, .wrapper .entrena_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#entrena.last, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .equipa_content .calendar#entrena.last, .wrapper .equipa_content .cont_post_calendar .meses .meses_cont .calendar#entrena.last, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar.last#motiva, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar.last#motiva, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#motiva.last_mot, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#motiva.last_mot, .wrapper .cont_post_calendar .meses .meses_cont .motiva_content .calendar#motiva.first_mot, .wrapper .motiva_content .cont_post_calendar .meses .meses_cont .calendar#motiva.first_mot {
+            height: 495px;
+            margin-bottom: 0; }
+          @media screen and (max-width: 640px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              display: none; } }
+          @media screen and (min-width: 641px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              display: none; } }
+          @media screen and (min-width: 1280px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              display: block; } }
+          @media screen and (min-width: 1024px) {
+            .wrapper .cont_post_calendar .meses .meses_cont .calendar {
+              display: block; } }
 
 header {
   float: left;
@@ -4274,7 +4276,8 @@ header {
   border-bottom: 0;
   border-style: solid;
   border-color: #26FF26;
-  background-color: #2B3787; }
+  background-color: #2B3787;
+  position: relative; }
   @media screen and (max-width: 480px) {
     .footer {
       float: left;
@@ -5665,8 +5668,7 @@ header {
 .adblocks_728x90, .adblocks_970x90 {
   max-width: 728px;
   padding-top: 10px;
-  clear: both;
-  display: none; }
+  clear: both; }
   @media screen and (max-width: 640px) {
     .adblocks_728x90, .adblocks_970x90 {
       display: none; } }
@@ -5674,8 +5676,7 @@ header {
 .adblocks_728x90-single {
   max-width: 728px;
   padding-top: 5px;
-  float: right;
-  display: none; }
+  float: right; }
   @media screen and (max-width: 640px) {
     .adblocks_728x90-single {
       display: none; } }
@@ -5686,5 +5687,22 @@ header {
 .adblocks_300x250 {
   width: 300px;
   margin-bottom: 20px !important; }
+
+.skins-ad {
+  position: fixed;
+  width: 1420px;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 70px; }
+  @media (max-width: 1281px) {
+    .skins-ad {
+      display: none; } }
+  .skins-ad .left-ad, .skins-ad .right-ad {
+    width: 120px;
+    float: left; }
+  .skins-ad .right-ad {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

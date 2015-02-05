@@ -3,13 +3,17 @@
 	@extend .center;
 	padding-top: 10px;
 	@include gridle_clear(both);
-	@include gridle_hide(phoness tabless);
+	@include gridle_state(phoness){
+		display:none;
+	}
 }
 .adblocks_728x90-single{
 	max-width:728px;
 	padding-top:5px;
 	@include gridle_float(right);
-	@include gridle_hide(phoness tabless);
+	@include gridle_state(phoness){
+		display:none;
+	}
 }
 .adblocks_970x90{
 	@extend .adblocks_728x90;
@@ -19,4 +23,24 @@
 	width:300px;
 	@extend .center;
 	margin-bottom: 20px !important;
+}
+.skins-ad{
+	@media(max-width:1281px){
+		display:none;
+	}
+	position: fixed;
+    width: 1420px;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 70px;
+    .left-ad{
+    	width: 120px;
+	    @include gridle_float(left);
+    }
+    .right-ad{
+		@extend .left-ad;
+		@include gridle_float(right);
+    }
 }
