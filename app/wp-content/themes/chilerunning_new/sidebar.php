@@ -2,28 +2,15 @@
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
 	
-	<div id="block_300x250_side" class="adblocks_300x250">
-		
-				<!-- 300x250_CR_sidebar -->
-<div id='div-gpt-ad-1422999910910-2' style='width:300px; height:250px;'>
-<script type='text/javascript'>
-googletag.display('div-gpt-ad-1422999910910-2');
-</script>
-</div>
+	<div id="mt_300x250_A" clas="adblocks_300x250"></div>
 
-	</div>
-	<div id="block_300x250_side" class="adblocks_300x250">
-		
-		<!-- 300x250_CR_sidebar_2 -->
-<div id='div-gpt-ad-1422999910910-3' style='width:300px; height:250px;'>
-<script type='text/javascript'>
-googletag.display('div-gpt-ad-1422999910910-3');
-</script>
-</div>
+	<div id="mt_300x250_B" class="adblocks_300x250"></div>
+	
 
-	</div>
-
-	<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fchilerunningscl&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true&amp;appId=1487367144883822" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;" allowTransparency="true"></iframe>
+	<div class="fb-page" data-href="https://www.facebook.com/chilerunningscl" data-width="300" data-hide-cover="false" data-show-facepile="false" data-show-posts="true" style="margin:5px auto;"></div>
+	
+	<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/chilerunningscl" data-widget-id="580123728870285312">Tweets por el @chilerunningscl.</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 	<div class="sidebar-widget">
 		<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-1')) ?>

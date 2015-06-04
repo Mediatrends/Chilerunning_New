@@ -2,26 +2,8 @@
 <?php get_header(); ?>
 
 <div class="skins-ad">
-  <div class="left-ad">
-  	
-  	<!-- 120x600_left_CR_calendar -->
-	<div id='div-gpt-ad-1423148950938-0'>
-	<script type='text/javascript'>
-	googletag.display('div-gpt-ad-1423148950938-0');
-	</script>
-	</div>
-
-  </div>
-  <div class="right-ad">
-  	
-  	<!-- 120x600_right_CR_calendar -->
-	<div id='div-gpt-ad-1423148950938-1'>
-	<script type='text/javascript'>
-	googletag.display('div-gpt-ad-1423148950938-1');
-	</script>
-	</div>
-
-  </div>
+  <div id="mt_120x600_left" class="left-ad"></div>
+  <div id="mt_120x600_right" class="right-ad"></div>
 </div>
 
 <section class="cont_post_calendar">

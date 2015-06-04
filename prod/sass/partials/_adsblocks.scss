@@ -9,8 +9,8 @@
 }
 .adblocks_728x90-single{
 	max-width:728px;
-	padding-top:5px;
-	@include gridle_float(right);
+	margin:0 auto;
+	@include gridle_clear(both);	
 	@include gridle_state(phoness){
 		display:none;
 	}
@@ -35,12 +35,4 @@
     right: 0;
     margin: 0 auto;
     top: 70px;
-    .left-ad{
-    	width: 120px;
-	    @include gridle_float(left);
-    }
-    .right-ad{
-		@extend .left-ad;
-		@include gridle_float(right);
-    }
 }

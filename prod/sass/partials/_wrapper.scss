@@ -373,7 +373,7 @@
 				}
 			}
 		}
-		#slot01_ad{
+		#mt_300x250_A{
 			height:250px;
 			@include gridle(3+1/2);
 			@include gridle-parent();
@@ -394,8 +394,8 @@
 				@extend .last;
 			}
 		}
-		#slot02_ad{
-			@extend #slot01_ad;
+		#mt_300x250_B{
+			@extend #mt_300x250_A;
 		}
 	}
 	.equipa_content{

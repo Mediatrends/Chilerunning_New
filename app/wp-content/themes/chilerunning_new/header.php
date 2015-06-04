@@ -35,42 +35,30 @@
 		  ga('send', 'pageview');
 
 		</script>
+		
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '841658049248124',
+		      xfbml      : true,
+		      version    : 'v2.3'
+		    });
+		  };
 
-        <script type='text/javascript'>
-		(function() {
-		var useSSL = 'https:' == document.location.protocol;
-		var src = (useSSL ? 'https:' : 'http:') +
-		'//www.googletagservices.com/tag/js/gpt.js';
-		document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-		})();
-		</script>
-
-		<script type='text/javascript'>
-		googletag.defineSlot('/92947493/300x250_CR', [300, 250], 'div-gpt-ad-1422999910910-0').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/300x250_CR-2', [300, 250], 'div-gpt-ad-1422999910910-1').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/300x250_CR_sidebar', [300, 250], 'div-gpt-ad-1422999910910-2').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/300x250_CR_sidebar_2', [300, 250], 'div-gpt-ad-1422999910910-3').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/728X90_CR', [728, 90], 'div-gpt-ad-1422999910910-4').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/728x90_CR_cont', [728, 90], 'div-gpt-ad-1422999910910-5').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/728x90_CONT-SINGLE', [728, 90], 'div-gpt-ad-1422999910910-6').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/970x90_CR_ALL', [970, 90], 'div-gpt-ad-1422999910910-7').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/120x600_left_CR_calendar', [120, 600], 'div-gpt-ad-1423148950938-0').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/120x600_right_CR_calendar', [120, 600], 'div-gpt-ad-1423148950938-1').addService(googletag.pubads());
-		googletag.defineSlot('/92947493/320x50_CR_ALL', [320, 50], 'div-gpt-ad-1423148950938-2').addService(googletag.pubads());
-		googletag.pubads().enableSyncRendering();
-		googletag.enableServices();
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
 		</script>
 	</head>
 	<body <?php body_class(); ?>>
 		
 		<?php include (TEMPLATEPATH . '/svg_icons.php'); ?>
 
-		<!-- 320x50_CR_ALL -->
-		<div id='div-gpt-ad-1423148950938-2' style='width:320px;position:relative;bottom:0;margin:0 auto;left:0;right:0;'>
-			<script type='text/javascript'>
-			googletag.display('div-gpt-ad-1423148950938-2');
-			</script>
-		</div>
+		<div id="mt_320x50"></div>
 
 		<div class="menu-wrap">
 

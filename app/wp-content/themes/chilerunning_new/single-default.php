@@ -6,47 +6,9 @@ Description: default post type
 ?>
 <?php get_header(); ?>
 	
-	<div class="share_contsingle">
-
-		<!--div class="addthis_toolbox addthis_default_style ">
-
-			<div class="count_share">
-				<span class="atcounter"></span>
-				<p>Compartidos</p>
-			</div>
-
-			<div class="shares">
-				<a class="addthis_button_facebook">
-		    		<i class="fa fa-facebook"><span>Facebook</span></i>
-			    </a>
-
-			    <a class="addthis_button_twitter">
-					<i class="fa fa-twitter"><span>Twitter</span></i>
-				</a>
-
-				<a class="addthis_button_email">
-					<i class="fa fa-send"><span>Mail</span></i>
-				</a>
-
-				<a class="addthis_button_compact"><i class="fa fa-plus"></i></a>
-			</div>
-		    
-		</div-->
-
-		<?php mashsharer(); ?>
-
-	</div>
-
-	<div id="block_728x90_03" class="adblocks_728x90-single">
-
-<!-- 728x90_CR_CONT-SINGLE -->
-<div id='div-gpt-ad-1422999910910-6'>
-<script type='text/javascript'>
-googletag.display('div-gpt-ad-1422999910910-6');
-</script>
-</div>
-
-	</div>
+	<?php include (TEMPLATEPATH . '/970x90_all-ad.php'); ?>
+	
+	<div class="share_contsingle"></div>
 
 	<div class="inner_tit_bar">
 	
@@ -72,6 +34,7 @@ googletag.display('div-gpt-ad-1422999910910-6');
 					
 					<!-- post title -->
 					<h1><?php the_title(); ?></h1>
+
 					<!-- /post title -->
 					
 					<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
@@ -82,11 +45,13 @@ googletag.display('div-gpt-ad-1422999910910-6');
 					</div>
 
 					<div class="author">
-						<?php echo get_avatar(); ?>
+						<?php echo get_avatar(get_the_author_ID()); ?>
 						<p class="autor"> <span><?php _e( 'Por:', 'html5blank' ); ?></span><?php the_author_posts_link(); ?></p>
 						<br>
 						<p class="date"><span>Publicado en:</span> <?php echo get_the_date(); ?></p>
 					</div>
+					
+					<div id="mt_728x90_cont" class="adblocks_728x90-single"></div>
 
 					<?php the_content(); // Dynamic Content ?>
 					

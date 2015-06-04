@@ -14,15 +14,7 @@
 
 	</div>
 	
-	<div id="slot02_ad" title="Publicidad Disponible">
-		
-		<!-- 300x250_CR -->
-		<div id='div-gpt-ad-1422999910910-0'>
-		<script type='text/javascript'>
-		googletag.display('div-gpt-ad-1422999910910-0');
-		</script>
-		</div>
-	</div>
+	<div id="mt_300x250_B" title="Publicidad Disponible"></div>
 
 	<?php $query = new WP_Query('posts_per_page=4&category_name=motivacion'); ?>
 
