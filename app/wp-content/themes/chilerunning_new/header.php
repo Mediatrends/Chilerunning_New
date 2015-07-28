@@ -58,7 +58,7 @@
 		
 		<?php include (TEMPLATEPATH . '/svg_icons.php'); ?>
 
-		<div id="mt_320x50"></div>
+		<div id="mt_320x50" style="position: fixed;bottom: 0;width: 320px;margin: 0 auto;left: 0;right: 0;z-index: 99999;"></div>
 
 		<div class="menu-wrap">
 

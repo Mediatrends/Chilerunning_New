@@ -21,8 +21,7 @@
 					<p></p>
 					<ul>
 						<li><i class="fa fa-map-marker"></i>Av. Italia 1438</li>
-						<li><i class="fa fa-phone"></i>+56 2 22059191</li>
-						<li><i class="fa fa-envelope-o"></i><a href="mailto:editor@chilerunning.com" target="_blank">editor@chilerunning.com</a></li>
+						<li><i class="fa fa-envelope-o"></i><a href="mailto:editor@chilerunning.com" target="_blank">editor&#64;chilerunning.com</a></li>
 					</ul>
 
 				</div>
@@ -48,8 +47,7 @@
 
 				<!-- copyright -->
 				<div class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</div>
 				<!-- /copyright -->
 			</div>
@@ -65,6 +63,12 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettySocial.min.js"></script>
 		
 		<?php wp_footer(); ?>
-
+		
+		<!-- /92947493/intersitial_CR_ALL -->
+		<div id='div-gpt-ad-1437586168709-0'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1437586168709-0'); });
+		</script>
+		</div>
 	</body>
 </html>
