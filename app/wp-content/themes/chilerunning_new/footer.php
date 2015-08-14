@@ -2,55 +2,66 @@
 		<!-- /wrapper -->
 
 		<!-- footer -->
-		<footer class="footer" role="contentinfo">
-			
-			<div class="content">
-				
-				<div id="footer_firstbox" class="foot_box">
-					
-					<svg viewBox="0 0 28.857 28.857">
-						<use xlink:href="#svg_logo"></use>
-					</svg>
-					<p><?php bloginfo('description'); ?></p>
+		<footer class="footer-chr" role="contentinfo">
 
+		<div class="content-chr">
+
+			<div class="first-box">
+				<div class="logo">
+						<a href="<?php echo home_url(); ?>">
+							<svg viewBox="0 0 28.857 28.857">
+								<use xlink:href="#svg_logo"></use>
+							</svg>
+
+						</a>
 				</div>
+			</div>
 
-				<div id="footer_secbox" class="foot_box">
-					
-					<h3>Contactanos</h3>
-					<p></p>
+			<div class="second-box">
+				<nav class="nav" role="navigation">
+					<?php html5blank_nav(); ?>
+				</nav>
+			</div>
+
+			<div class="third-box">
+				<h3>Contacto</h3>
+				<div class="contact-one">
+					<div class="icon-cont"><div class="icon"><i class="fa fa-envelope-o"></i></div></div>
+					<div class="info-cont">
+						<h4>Contacto Editorial</h4>
+						<h5><a href="mailto:editor@mediatrends.cl">Editor@chilerunning.cl</a></h5>
+					</div>
+				</div>
+				<div class="contact-one">
+					<div class="icon-cont"><div class="icon"><i class="fa fa-envelope-o"></i></div></div>
+					<div class="info-cont">
+						<h4>Contacto  PUBLICITARIO</h4>
+						<h5><a href="mailto:editor@mediatrends.cl">Editor@chilerunning.cl</a></h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="fourth-box">
+				<h3>Newsletter</h3>
+				<div class="news-box">
+					<?php echo do_shortcode('[newsletter_signup_form id=0]'); ?>
+				</div>
+			</div>
+
+			<div class="fifth-box">
+				<div class="content-fifb">
 					<ul>
-						<li><i class="fa fa-map-marker"></i>Av. Italia 1438</li>
-						<li><i class="fa fa-envelope-o"></i><a href="mailto:editor@chilerunning.com" target="_blank">editor&#64;chilerunning.com</a></li>
+						<li><a href="https://www.facebook.com/chilerunningscl"><div class="icon"><i class="fa fa-facebook"></i></div></a></li>
+						<li><a href="https://twitter.com/chilerunningscl"><div class="icon"><i class="fa fa-twitter"></i></div></a></li>
+						<li><a href="http://instagram.com/chilerunning"><div class="icon"><i class="fa fa-instagram"></i></div></a></li>
 					</ul>
-
+					<div class="copy-right-chr">© 2015 Copyright Chile Running.</div>
 				</div>
-
-				<div id="footer_thrbox" class="foot_box text-center">
-					
-					<h3 class="text-left">Siguenos en Instagram</h3>
-
-					<script src="http://snapwidget.com/js/snapwidget.js"></script>
-					<iframe src="http://snapwidget.com/in/?u=Y2hpbGVydW5uaW5nfGlufDgwfDN8M3x8bm98MHxmYWRlT3V0fG9uU3RhcnR8eWVzfHllcw==&ve=131014" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:60%;"></iframe>
-				
-				</div>
-
 			</div>
 			
-			<div class="redes">
-				
-				<ul>
-					<li><a href="https://www.facebook.com/chilerunningscl"><i class="fa fa-facebook"></i>Facebook</a></li>
-					<li><a href="https://twitter.com/chilerunningscl"><i class="fa fa-twitter"></i>Twitter</a></li>
-					<li><a href="http://instagram.com/chilerunning"><i class="fa fa-instagram"></i>Instagram</a></li>
-				</ul>
 
-				<!-- copyright -->
-				<div class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
-				</div>
-				<!-- /copyright -->
-			</div>
+		</div>
+			
 			
 		</footer>
 		<!-- /footer -->
