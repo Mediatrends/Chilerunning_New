@@ -4,7 +4,7 @@
 	height:auto; 
 	.content-chr {
 		@include gridle(8);
-		@include gridle(9, notebook-min);
+		@include gridle(11, notebook-min);
 		@include gridle(11, tabless-md); 
 		@include gridle(12, phoness phoness-min);  
 		@include gridle_float(none);
@@ -48,6 +48,7 @@
 			@include gridle(10);
 			@include gridle_float(right); 
 			@extend .no-paddings;
+			@extend .text-right;
 			nav{
 				@include gridle(12);
 				@include gridle_float(right);
@@ -56,7 +57,9 @@
 					@include gridle(12);
 					@extend .center;
 					li{
-						@include gridle_float(right);
+						//@include gridle_float(right);
+						//@include gridle_float(left);
+						display: inline-block;
 						border-right:1px solid #fff;
 						position: relative;
 						height: auto;
@@ -97,7 +100,7 @@
 						}
 					}
 				}
-				@include gridle_state(phoness tabletss landscapess){
+				@include gridle_state(phoness-min phoness){
 					display: none;
 				}
 				@include gridle_state(desktopess){

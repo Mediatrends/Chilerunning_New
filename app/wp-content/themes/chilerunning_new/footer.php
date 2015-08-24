@@ -19,7 +19,7 @@
 
 			<div class="second-box">
 				<nav class="nav" role="navigation">
-					<?php html5blank_nav(); ?>
+					<?php html5blank_nav('Footer'); ?>
 				</nav>
 			</div>
 
