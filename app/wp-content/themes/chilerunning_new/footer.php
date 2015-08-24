@@ -19,7 +19,7 @@
 
 			<div class="second-box">
 				<nav class="nav" role="navigation">
-					<?php html5blank_nav('Footer'); ?> 
+					<?php wp_nav_menu('Footer')?> 
 				</nav>
 			</div>
 
