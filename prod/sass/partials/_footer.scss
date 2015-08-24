@@ -1,106 +1,434 @@
-.footer{
+.footer-chr {
 	@include gridle(12);
-	@include gridle_parent();
-	@extend .no-paddings;
-	margin:{top:20px;}
-	border:{top:10px;left:0;right:0;bottom:0;style:solid;color:$alt_color;}
-	background:{color:$main_color;}
-	position: relative;
-	.content{
-		max-width:1170px;
-		@extend .center;
-		.foot_box{
-			@include gridle(4, desktopess landscapess tabletss);
-			svg{
-				fill:#fff;
-				max-width:90px;
-				margin:{top:20px;}
+	background: {color:$main_color;}
+	height:auto; 
+	.content-chr {
+		@include gridle(8);
+		@include gridle(11, notebook-min);
+		@include gridle(11, tabless-md); 
+		@include gridle(12, phoness phoness-min);  
+		@include gridle_float(none);
+		padding:20px 0;
+		margin:0 auto;
+		display: block;
+		.first-box {
+			@include gridle(2);
+			@include gridle(3, phoness);
+			@include gridle(7, phoness-min);
+			@extend .no-paddings;
+			@include gridle_state(desktopess) {
+				float: left;
 			}
-			p{
-				color:#fff;
-				font:{size:12px;}
-			}
-			h3{
-				font:{size:20px;weight:bold;}
-				color:#fff;
-				line:{height: 20px;}
-			}
-			ul{
-				li{
-					color:#fff;
-					font:{size:12px;}
-					i{
-						width:20px;
-						margin:{right:5px}
-						color:#fff;
-						font:{size:20px;}
-						@include gridle_clear(both);
-						background:{position: center;}
-					}
-					a{
-						color:$sec_color;
-						text:{decoration:none;}
-					}
-				}
-			}
-		}
-		#footer_firstbox{
-			@include gridle(12, phoness);
-			@include gridle_state(phoness){
-				text:{align:center;}
+			@include gridle_state(notebook-min) {
+				float: none;
 			}	
-		}
-		#footer_secbox{
-			@include gridle(6, phoness);
-		}
-		#footer_thrbox{
-			@include gridle(6, phoness);	
-		}
-		
-	}
-	.redes{
-		@include gridle(12);
-		background:{color:#fff;}
-		color:$main_color;
-		@extend .text-center;
-		ul{
-			width:100%;
-			padding-top:20px !important;
-			li{
-				@include gridle_state(desktopess landscapess){
-					margin:0 50px !important;
-				}
-				@include gridle_state(phoness tabletss){
-					margin:0 20px !important;
-				}
-				display: inline-block;
-				a{
-					color:$main_color;
-					text:{decoration:none;}
-				}
-				i{
-					color: #FFF;
-					background:{color: $main_color;}
-					@include border-top-radius(50%);
-					@include border-bottom-radius(50%);
-					@include border-left-radius(50%);
-					@include border-right-radius(50%);
-					height: 17px;
-					width: 21px;
-					padding:{top: 4px;}
-					margin:{right:5px;}
+			@include gridle_state(phoness phoness-min) {
+				float: none;
+				display: block;
+				margin: 0 auto;
+			}
+			.logo {
+				@include gridle(6);
+				@include gridle_state(phoness phoness-min) {
+				    width: 50%;
+					text-align: center;
+					display: block;
+					margin: 10px auto 20px auto;
+					float: none;
+					}
+				svg {
+					width: 100%;
+					height: auto;
+					display: block;
+					fill:#fff;
 				}
 			}
 		}
-		.copyright{
-			margin:{top:10px;bottom:10px;}
+		.second-box {
+			@include gridle(10);
+			@include gridle_float(right); 
+			@extend .no-paddings;
+			@extend .text-right;
+			nav{
+				@include gridle(12);
+				@include gridle_float(right);
+				padding:35px 0 !important;
+				ul{
+					@include gridle(12);
+					@extend .center;
+					li{
+						//@include gridle_float(right);
+						//@include gridle_float(left);
+						display: inline-block;
+						border-right:1px solid #fff;
+						position: relative;
+						height: auto;
+						&:last-child{
+							border:none !important;
+						}
+						a{
+							font:{size:14px;weight:bold;}
+							color:#fff;
+							text:{decoration:none;transform:uppercase;}
+							display: block;
+							height:100%;
+							padding: 0 17px !important;
+							position: relative;
+							z-index:10;
+						}
+						svg{
+							width:20px;
+							left:0;
+							right:0;
+							top:0;
+							opacity: 0;
+							@extend .center;
+							fill:$sec_color;
+							position: absolute;
+							z-index:1;
+						}
+						&.current-menu-item{
+							a{
+								color:$sec_color;
+							}
+						}
+						@include gridle_state(landscapess){
+							a{
+								font:{size:13px;}
+								padding:0 17px;
+							}
+						}
+					}
+				}
+				@include gridle_state(phoness-min phoness){
+					display: none;
+				}
+				@include gridle_state(desktopess){
+					display: block;
+					padding:{top:25px;}
+				}
+			} 
+		}
+		.third-box {
+			@include gridle(5);
+			@include gridle(7, phoness);
+			@include gridle(9, phoness-min);
+			margin:{top:10px;}
+			@include gridle_state(notebook-min) {
+			margin:0;	
+			}
+			@include gridle_state(tabless-md) {
+				clear: both;
+				display: block;
+			}
+			@include gridle_state(phoness) {
+				text-align: center; 
+				margin:35px auto;
+				display: block;
+				    float: none;
+			}
+			@include gridle_state(phoness-min) {
+				float: none;
+				text-align: center; 
+				display: block;
+				margin: 0 auto;
+				padding:{left: 25px;}
+			}
+			h3 {
+				font{family:$main_font;}
+				color:#fff !important;
+				text:{transform:uppercase;}
+				@include gridle_state(phoness phoness-min) {
+					display: none; 
+				}	
+			}
+			.contact-one {
+				@include gridle(6);
+				@include gridle(5, phoness);
+				@include gridle(12, phoness-min);
+				@extend .no-paddings;
+				@include gridle_state(phoness) {
+				    float: none;
+				    text-align: left;
+				}
+				@include gridle_state(phoness-min) {
+				    width: 100%;
+				    float: none;
+				    text-align: center;
+				}
+				.icon-cont {
+					@include gridle(2);
+					padding: 2px 0 0 0;
+					display: inline-block;
+					@include gridle_state(phoness-min) {
+						width: 24%;
+						text-align: right;
+					}
+					.icon {
+						width: 40px;
+						height: 40px;
+						background: $sec_color;
+						border-radius: 50%;
+						display: table;
+						@include gridle_state(phoness-min) {
+							float: right;
+						}
+						i {
+							display: table-cell;
+							vertical-align: middle;
+							text:{align: center;}
+							font:{size: 22px;}
+							color:$main_color;
+						}	
+					}
+				}
+				.info-cont {
+					@include gridle(10);
+					@extend .no-paddings;
+					display: inline-block;
+					@include gridle_float(right);
+					font{family:$main_font;}
+					@include gridle_state(phoness-min) {
+						width: 70%;
+						float: left;
+					}
+					h4 {
+						@extend .no-margins;
+						color: #fff;
+						font:{size: 15px;}
+						padding: 0 5px;
+						text:{transform:uppercase;}
+						@include gridle_state(notebook-min) {
+							font:{size: 12px;}
+							padding: 2px 11px 0;
+						}
+						@include gridle_state(tabless-md) {
+							 font:{size: 11px;}
+    						 padding: 5px 11px 0 11px;
+						}
+						@include gridle_state(phoness-min) {
+							 padding: 5px 0 0 5px;
+							 text-align: left;
+						}
+					}
+					h5 {
+						@extend .no-margins;
+						font:{size: 13px;weight: 100;}
+						padding: 0 5px;
+						@include gridle_state(phoness-min) {
+							text-align: left;
+							padding: 0 5px;
+						}
+						a {
+							color:#fff;
+							text:{decoration:none;}
+							font:{style:italic;}
+							@include gridle_state(notebook-min) {
+								padding: 0 5px;
+							}
+							@include gridle_state(phoness-min) {
+								padding: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		.fourth-box {
+			@include gridle(7);
+			@include gridle(9, phoness);
+			@include gridle(12, phoness-min);
+			margin:{top:10px;}
+			@include gridle_state(notebook-min) {
+				margin:0;	 
+			}
+			@include gridle_state(phoness) {
+				float: none;
+				display: block;
+				margin: 0 auto;
+			}
+			h3 {
+				font{family:$main_font;}
+				color:#fff !important;
+				text:{transform:uppercase;}
+				margin:{bottom: 5px;}
+				@include gridle_state(phoness phoness-min) {
+					text:{align: center;}
+				}
+			}
+			.news-box {
+				@include gridle(12);
+				@extend .no-paddings;
+				.mymail-form  {
+					.mymail-wrapper {
+						&.mymail-email-wrapper {
+							@include gridle(6);
+							@include gridle(5, phoness);
+							@include gridle(12, phoness-min);
+							@extend .no-paddings;
+							label {
+								color: #fff;
+								font:{style: italic;}
+								span {
+									&.required {
+										color:$sec_color !important;
+									}
+								}
+							}
+							input{
+								@include gridle(12);
+								color:#fff;
+								border: none;
+								height: 30px;
+								font:{size:15px;family:$main_font;}
+								background:{color:rgba(255,255,255,.13);}
+								outline: none;
+								@include placeholder{
+									color: #fff;	
+								}
+								@include gridle_state(tabless-md) {
+									 width: 96%;
+								}
+								@include gridle_state(phoness phoness-min) {
+									 width: 100%;
+								}
+							}
+						}
+						&.mymail-firstname-wrapper {
+							@include gridle(4);
+							@include gridle(12, phoness-min);
+							@include gridle_state(phoness-min) {
+								padding: 0;
+							}
+							label {
+								color: #fff;
+								font:{style: italic;}
+								span {
+									&.required {
+										color:$sec_color !important;
+
+									}
+								}
+							}
+							input{
+								@include gridle(12);
+								color:#fff;
+								border: none;
+								height: 30px;
+								outline: none;
+								font:{size:15px;family:$main_font;} 
+								background:{color:rgba(255,255,255,.13);}
+								@include placeholder{ 
+									color: #fff;	
+								}
+								@include gridle_state(tabless-md) {
+									 width: 96%;
+								}
+								@include gridle_state(phoness phoness-min) {
+									 width: 100%;
+								}
+							}
+						}
+						&.mymail-submit-wrapper {
+							&.form-submit {
+								@include gridle(2);
+								@include gridle(3, phoness);
+								@include gridle(12, phoness-min);
+								@extend .no-paddings;
+								input {
+									@include gridle(12);
+									@extend .no-paddings;
+									background:{color: #252a6e;}
+									outline: none;
+									border: 0;
+									height: 32px;
+									margin:{top: 18px;}
+									color: #fff;
+									text:{transform: uppercase;}
+									font:{weight: lighter;}
+								}
+							}
+						}
+					}
+					.mymail-form-info {
+						&.error {
+							background: none;
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+						&.success {
+							background: none;  
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.fifth-box {
 			@include gridle(12);
-			@include gridle_parent();
-			color:$main_color;
-			font: {size:8px;}
-			@extend .text-center;
-			a{
-				color:#000;
+			.content-fifb {
+				@include gridle(4);
+				@include gridle(12, phoness-min);
+				@include gridle_float(none);
+				display: block;
+				margin:0 auto;
+				padding:{top:30px;left:0;right: 0;}
+				ul {
+					@include gridle(12);
+					@extend .no-paddings;
+					@extend .no-margins;
+					display: block;
+					text:{align: center;}
+					li {
+						list-style:none;
+						display: inline-block;
+						margin:{right:10px !important;}
+						&:last-child {
+							margin: 0 !important;
+						}
+						.icon {
+							width: 40px;
+							height: 40px;
+							background: $sec_color;
+							border-radius: 50%;
+							display: table;
+							i {
+								display: table-cell;
+								vertical-align: middle;
+								text:{align: center;}
+								font:{size: 22px;}
+								color:$main_color;
+							}	
+						}
+					}
+				}
+				.copy-right-chr {
+					@include gridle(12);
+					text:{align: center;}
+					color:#9398d5;
+					padding: 10px 0;
+				}
 			}
 		}
 	}
