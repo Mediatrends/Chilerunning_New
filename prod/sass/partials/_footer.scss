@@ -346,10 +346,14 @@
 									color: #fff;
 									text:{transform: uppercase;}
 									font:{weight: lighter;}
-								}
+								}  
 							}
 						}
 					}
+					.mymail-loader {
+						display: none !important;
+						visibility: hidden !important;
+					} 
 					.mymail-form-info {
 						&.error {
 							background: none;
