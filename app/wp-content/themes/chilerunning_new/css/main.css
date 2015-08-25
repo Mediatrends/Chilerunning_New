@@ -26,7 +26,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav {
+.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav, .unsuscribe-content {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -3867,6 +3867,92 @@ header {
         margin-right: 0; }
       .content-single .nav a i {
         margin-right: 10px; }
+
+.unsuscribe-content {
+  float: left;
+  direction: ltr;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 66.66667%;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 280px; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .unsuscribe-content {
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (max-width: 1024px) {
+    .unsuscribe-content {
+      width: 83.33333%; } }
+  @media screen and (max-width: 800px) {
+    .unsuscribe-content {
+      width: 100%; } }
+  @media screen and (max-width: 1024px) {
+    .unsuscribe-content {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media screen and (max-width: 800px) {
+    .unsuscribe-content {
+      padding-top: 100px;
+      padding-bottom: 200px; } }
+  @media screen and (max-width: 480px) {
+    .unsuscribe-content {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  .unsuscribe-content h1 {
+    font-size: 30px;
+    color: #2B3787;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px; }
+    @media screen and (max-width: 480px) {
+      .unsuscribe-content h1 {
+        font-size: 25px;
+        margin-bottom: 10px; } }
+  .unsuscribe-content .pln {
+    font-size: 25px;
+    color: #2B3787;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px; }
+    @media screen and (max-width: 480px) {
+      .unsuscribe-content .pln {
+        font-size: 20px;
+        line-height: 22px; } }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper label {
+    font-size: 15px;
+    color: #2B3787;
+    line-height: 15px; }
+    .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper label span {
+      color: #26FF26; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input {
+    padding: 6px 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.form-submit .submit-button {
+    background-color: #2B3787;
+    outline: none;
+    border: 0;
+    height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: lighter; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.form-submit span {
+    display: none !important; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-form-info.error {
+    background-color: #2B3787;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 10px; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-form-info.success {
+    background-color: #26FF26;
+    color: #2B3787;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px; }
 
 .adblocks_728x90, .adblocks_970x90 {
   max-width: 728px;

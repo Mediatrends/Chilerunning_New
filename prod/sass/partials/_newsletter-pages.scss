@@ -1,0 +1,86 @@
+.unsuscribe-content {
+	@include gridle(8);
+	@include gridle(10, tabless-md);
+	@include gridle(12, phoness);
+	@include gridle_float(none);
+	display: block;
+	margin: 0 auto;
+	padding:{top:100px; bottom:280px;}
+	@include gridle_state(tabless-md) {
+		padding:{top:100px; bottom:100px;}
+	}
+	@include gridle_state(phoness) {
+		padding:{top:100px; bottom:200px;}
+	}
+	@include gridle_state(phoness-min) {
+		padding:{top:20px; bottom:20px;}
+	}
+	h1{
+		font:{size:30px;}
+		color:$main_color;
+		text:{transform:uppercase;align:center;}
+		line-height: 25px;
+		@include gridle_state(phoness-min) {
+			font:{size:25px;} 
+			margin:{bottom:10px;}
+		}	
+	}
+	.pln {
+		font:{size:25px;}
+		color:$main_color;
+		text:{transform:uppercase;align:center;}
+		line-height: 25px;
+		@include gridle_state(phoness-min) {
+			font:{size:20px;}
+			line-height: 22px;
+		}
+	}
+	.mymail-form-unsubscribe {
+		.mymail-wrapper {
+			&.mymail-email-wrapper {
+				label {
+					font:{size:15px;}
+					color:$main_color;
+					line-height: 15px;
+					span {
+						color:$sec_color ;
+					}
+				}
+				input {
+					padding: 6px 4px;
+					margin: {top:5px; bottom:10px;}
+					outline: none;
+				}
+			}
+			&.form-submit {
+				.submit-button {
+					background:{color: $main_color;}
+					outline: none;
+					border: 0;
+					height: 32px;
+					color: #fff;
+					text:{transform: uppercase;}
+					font:{weight: lighter;}
+				}
+				span {
+					display: none !important;
+				}
+			}
+		}
+		.mymail-form-info {
+			&.error {
+				background:{color: $main_color;}
+				color: #FFF;
+				padding:10px;
+				margin:{bottom:10px;}
+			}
+			&.success {
+				background:{color:$sec_color;}
+				color: $main_color;
+				padding:10px;
+				font:{weight:bold;}
+				margin:{bottom:10px;}
+			}
+		}
+	}
+}
