@@ -26,7 +26,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav, .unsuscribe-content {
+.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .newsletter-new-suscribe .newsletter-footer, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav, .unsuscribe-content {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -1511,19 +1511,19 @@
 
   .clear-each-ipad-landscape-12 > *:nth-child(12n+1) {
     clear: both; } }
-.text-center, aside, aside.sidebar form input, .wrapper .swipe .swipe-wrap .content-slide article, .wrapper .swipe .swipe-wrap .content-slide article .tags, .wrapper .entrena_content #entrena article a main .more, .wrapper .motiva_content #entrena article a main .more, .wrapper .equipa_content #entrena article a main .more, .wrapper .motiva_content #motiva article a main .more, .wrapper .entrena_content #entrena.first article .alt_link, .wrapper .motiva_content #entrena.first article .alt_link, .wrapper .equipa_content #entrena.first article .alt_link, .wrapper .entrena_content #entrena.last article .alt_link, .wrapper .motiva_content #entrena.last article .alt_link, .wrapper .equipa_content #entrena.last article .alt_link, .wrapper .motiva_content .last#motiva article .alt_link, .wrapper .motiva_content #motiva.last_mot article .alt_link, .wrapper .motiva_content .first#motiva article .alt_link, .wrapper .motiva_content #motiva.first_mot article .alt_link, .wrapper .equipa_content #equipa .postes .alt_link, .wrapper .equipa_content #equipa .cont main .more a, .wrapper .equipa_content .pagination ul, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .more, header main .tools, header main .tools ul li a, header main .btn_menuph, .content-single section.related h2, .content-single section.related ul {
+.text-center, aside, aside.sidebar form input, .wrapper .swipe .swipe-wrap .content-slide article, .wrapper .swipe .swipe-wrap .content-slide article .tags, .wrapper .entrena_content #entrena article a main .more, .wrapper .motiva_content #entrena article a main .more, .wrapper .equipa_content #entrena article a main .more, .wrapper .motiva_content #motiva article a main .more, .wrapper .entrena_content #entrena.first article .alt_link, .wrapper .motiva_content #entrena.first article .alt_link, .wrapper .equipa_content #entrena.first article .alt_link, .wrapper .entrena_content #entrena.last article .alt_link, .wrapper .motiva_content #entrena.last article .alt_link, .wrapper .equipa_content #entrena.last article .alt_link, .wrapper .motiva_content .last#motiva article .alt_link, .wrapper .motiva_content #motiva.last_mot article .alt_link, .wrapper .motiva_content .first#motiva article .alt_link, .wrapper .motiva_content #motiva.first_mot article .alt_link, .wrapper .equipa_content #equipa .postes .alt_link, .wrapper .equipa_content #equipa .cont main .more a, .wrapper .equipa_content .pagination ul, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main .more, header main .tools, header main .tools ul li a, header main .btn_menuph, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .content-single section.related h2, .content-single section.related ul {
   text-align: center; }
 
-.text-left, aside.sidebar h3, aside.sidebar form, .content-single section.related ul li a h3 {
+.text-left, aside.sidebar h3, aside.sidebar form, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .content-single section.related ul li a h3 {
   text-align: left; }
 
 .text-right, .footer-chr .content-chr .second-box, .content-single .nav a[rel="next"] {
   text-align: right; }
 
-.no-margins, ul, ul li, html, html body, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, .footer-chr .content-chr .third-box .contact-one .info-cont h4, .footer-chr .content-chr .third-box .contact-one .info-cont h5, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.error p, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.success p, .footer-chr .content-chr .fifth-box .content-fifb ul, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p, .content-single section.related ul li a h3 {
+.no-margins, ul, ul li, html, html body, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, .footer-chr .content-chr .third-box .contact-one .info-cont h4, .footer-chr .content-chr .third-box .contact-one .info-cont h5, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.error p, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.success p, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups p, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.error p, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.success p, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p, .content-single section.related ul li a h3 {
   margin: 0 !important; }
 
-.no-paddings, ul, ul li, html, html body, .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .swipe .swipe-wrap .content-slide article main p, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, header main .logo, header main .logo a, .footer-chr .content-chr .first-box, .footer-chr .content-chr .second-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box .content-fifb ul, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p {
+.no-paddings, ul, ul li, html, html body, .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .swipe .swipe-wrap .content-slide article main p, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, header main .logo, header main .logo a, .footer-chr .content-chr .first-box, .footer-chr .content-chr .second-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p {
   padding: 0 !important; }
 
 .resp_img {
@@ -2912,6 +2912,60 @@ header {
       padding-left: 0;
       padding-right: 0; } }
 
+@keyframes movenews {
+  0% {
+    -webkit-transform: perspective(800px) rotateX(-90deg);
+    -moz-transform: perspective(800px) rotateX(-90deg);
+    -ms-transform: perspective(800px) rotateX(-90deg);
+    -o-transform: perspective(800px) rotateX(-90deg);
+    transform: perspective(800px) rotateX(-90deg);
+    opacity: 1; }
+  40% {
+    -webkit-transform: perspective(800px) rotateX(30deg);
+    -moz-transform: perspective(800px) rotateX(30deg);
+    -ms-transform: perspective(800px) rotateX(30deg);
+    -o-transform: perspective(800px) rotateX(30deg);
+    transform: perspective(800px) rotateX(30deg);
+    opacity: 1; }
+  70% {
+    -webkit-transform: perspective(800px) rotateX(-10deg);
+    -moz-transform: perspective(800px) rotateX(-10deg);
+    -ms-transform: perspective(800px) rotateX(-10deg);
+    -o-transform: perspective(800px) rotateX(-10deg);
+    transform: perspective(800px) rotateX(-10deg); }
+  100% {
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    -moz-transform: perspective(800px) rotateX(0deg);
+    -ms-transform: perspective(800px) rotateX(0deg);
+    -o-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg);
+    opacity: 1; } }
+@keyframes showDelay {
+  0% {
+    visibility: hidden;
+    opacity: 0; }
+  50% {
+    visibility: visible;
+    opacity: 1; } }
+.animation-pop {
+  -moz-background-clip: padding;
+  -o-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+  -webkit-animation: movenews 1.2s forwards;
+  -moz-animation: movenews 1.2s forwards;
+  animation: movenews 1.2s forwards;
+  -webkit-transform-origin: top center;
+  -moz-transform-origin: top center;
+  -ms-transform-origin: top center;
+  -o-transform-origin: top center;
+  transform-origin: top center; }
+
 .footer-chr {
   float: left;
   direction: ltr;
@@ -3528,6 +3582,544 @@ header {
             .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr {
               padding-left: 0;
               padding-right: 0; } }
+  .footer-chr .bg-newsletter {
+    float: left;
+    direction: ltr;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    float: none;
+    background: #000;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999;
+    top: 0;
+    left: 0;
+    display: none; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+      .footer-chr .bg-newsletter {
+        padding-left: 0;
+        padding-right: 0; } }
+  .footer-chr .newsletter-new-suscribe {
+    float: left;
+    direction: ltr;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    float: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999999999;
+    top: 0;
+    display: none; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+      .footer-chr .newsletter-new-suscribe {
+        padding-left: 0;
+        padding-right: 0; } }
+    .footer-chr .newsletter-new-suscribe .content-popups {
+      float: left;
+      direction: ltr;
+      padding-left: 10px;
+      padding-right: 10px;
+      float: none;
+      height: auto;
+      background-color: #FFF;
+      display: block;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-bottom: 0;
+      margin-right: auto;
+      position: relative;
+      border-top: 7px solid #2B3787;
+      font-family: "Titillium Web", sans-serif; }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          padding-left: 0;
+          padding-right: 0; } }
+      @media screen and (min-width: 1440px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          width: 41.66667%; } }
+      @media screen and (max-width: 1440px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          width: 58.33333%; } }
+      @media screen and (max-width: 1024px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          width: 75%; } }
+      @media screen and (max-width: 480px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          width: 91.66667%; } }
+      @media screen and (max-width: 800px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          width: 91.66667%; } }
+      @media screen and (max-width: 480px) {
+        .footer-chr .newsletter-new-suscribe .content-popups {
+          margin-top: 20px;
+          margin-left: 0;
+          margin-right: 0; } }
+      .footer-chr .newsletter-new-suscribe .content-popups .close-button-popups {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        cursor: pointer;
+        z-index: 99; }
+        .footer-chr .newsletter-new-suscribe .content-popups .close-button-popups i {
+          color: #2B3787;
+          font-size: 18px; }
+      .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups {
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        position: relative;
+        background-color: #FFF; }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups {
+            padding-left: 0;
+            padding-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups {
+            padding-bottom: 15px; } }
+        .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 66.66667%;
+          float: none;
+          display: block;
+          margin: 0 auto;
+          padding-right: 0;
+          padding-bottom: 20px;
+          padding-left: 0;
+          border-bottom: 1px solid #e6e6e6; }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups {
+              padding-left: 0;
+              padding-right: 0; } }
+          @media screen and (max-width: 480px) {
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups {
+              width: 100%; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 16.66667%;
+            float: none;
+            display: inline-block; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups {
+                padding-left: 0;
+                padding-right: 0; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups svg {
+              fill: #2B3787; }
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 75%;
+            float: none;
+            display: inline-block; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p {
+                padding-left: 0;
+                padding-right: 0; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p .suscribe-p {
+              color: #2B3787;
+              font-size: 17px;
+              text-transform: uppercase; }
+              @media screen and (max-width: 480px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p .suscribe-p {
+                  font-size: 13px; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p .title-news {
+              font-size: 52px;
+              font-weight: bold;
+              line-height: 35px;
+              color: #2B3787;
+              text-transform: uppercase; }
+              @media screen and (max-width: 480px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p .title-news {
+                  font-size: 29px;
+                  line-height: 19px; } }
+        .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 66.66667%;
+          float: none;
+          display: block;
+          margin: 0 auto;
+          padding: 35px 0; }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups {
+              padding-left: 0;
+              padding-right: 0; } }
+          @media screen and (max-width: 480px) {
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups {
+              width: 100%; } }
+          @media screen and (max-width: 480px) {
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups {
+              padding: 18px 0; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 33.33333%; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups {
+                padding-left: 0;
+                padding-right: 0; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups {
+                width: 100%; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul {
+              margin: 0;
+              padding: 0; }
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul li {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background: #2B3787;
+                display: inline-block;
+                list-style: none;
+                margin: 0 5px !important; }
+                @media screen and (max-width: 800px) {
+                  .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul li {
+                    height: 35px;
+                    width: 35px; } }
+                .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul li a {
+                  text-align: center;
+                  height: inherit;
+                  width: inherit;
+                  display: table; }
+                  .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul li a i {
+                    display: table-cell;
+                    vertical-align: middle;
+                    color: #fff;
+                    font-size: 24px; }
+                    @media screen and (max-width: 800px) {
+                      .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups ul li a i {
+                        font-size: 18px; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 66.66667%;
+            font-size: 15px;
+            color: #2B3787; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups {
+                padding-left: 0;
+                padding-right: 0; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups {
+                width: 100%; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups {
+                display: none; } }
+        .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .arrow-middle {
+          width: 18px;
+          height: 18px;
+          background: #FFF;
+          position: absolute;
+          bottom: -9px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg); }
+      .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups {
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        background: #2B3787;
+        padding-top: 5px;
+        padding-bottom: 25px; }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups {
+            padding-left: 0;
+            padding-right: 0; } }
+        .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 83.33333%;
+          float: none; }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news {
+              padding-left: 0;
+              padding-right: 0; } }
+          @media screen and (max-width: 480px) {
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news {
+              width: 100%; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper {
+                padding-left: 0;
+                padding-right: 0; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper {
+                width: 100%; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper label {
+              color: #fff;
+              font-style: italic; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper label span.required {
+                color: #26FF26 !important; }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px;
+              width: 100%;
+              color: #fff;
+              border: none;
+              height: 30px;
+              font-size: 15px;
+              font-family: "Titillium Web", sans-serif;
+              background-color: rgba(255, 255, 255, 0.13);
+              outline: none; }
+              @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input {
+                  padding-left: 0;
+                  padding-right: 0; } }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input::-webkit-input-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input::-moz-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input:-moz-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input:-ms-input-placeholder {
+                color: #fff; }
+              @media screen and (max-width: 1024px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input {
+                  width: 96%; } }
+              @media screen and (max-width: 800px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input {
+                  width: 100%; } }
+              @media screen and (max-width: 480px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input {
+                  width: 100%; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%;
+            padding-right: 0; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper {
+                padding-left: 0;
+                padding-right: 0; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper {
+                width: 100%; } }
+            @media screen and (max-width: 480px) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper {
+                padding: 0; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper label {
+              color: #fff;
+              font-style: italic; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper label span.required {
+                color: #26FF26 !important; }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px;
+              width: 100%;
+              color: #fff;
+              border: none;
+              height: 30px;
+              outline: none;
+              font-size: 15px;
+              font-family: "Titillium Web", sans-serif;
+              background-color: rgba(255, 255, 255, 0.13); }
+              @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
+                  padding-left: 0;
+                  padding-right: 0; } }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input::-webkit-input-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input::-moz-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input:-moz-placeholder {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input:-ms-input-placeholder {
+                color: #fff; }
+              @media screen and (max-width: 1024px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
+                  width: 96%; } }
+              @media screen and (max-width: 800px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
+                  width: 100%; } }
+              @media screen and (max-width: 480px) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
+                  width: 100%; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit {
+            float: left;
+            direction: ltr;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%; }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit {
+                padding-left: 0;
+                padding-right: 0; } }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input {
+              float: left;
+              direction: ltr;
+              padding-left: 10px;
+              padding-right: 10px;
+              width: 100%;
+              background-color: #252a6e;
+              outline: none;
+              border: 0;
+              height: 37px;
+              margin-top: 10px;
+              color: #fff;
+              text-transform: uppercase;
+              font-weight: lighter; }
+              @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+                .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input {
+                  padding-left: 0;
+                  padding-right: 0; } }
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-loader {
+            display: none !important;
+            visibility: hidden !important; }
+          .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info {
+            padding-top: 10px; }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.error {
+              background: none;
+              border-radius: 0;
+              text-align: center; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.error p {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.error ul li {
+                color: #fff !important;
+                font-weight: bold; }
+            .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.success {
+              background: none;
+              border-radius: 0;
+              text-align: center; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.success p {
+                color: #fff; }
+              .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.success ul li {
+                color: #fff !important;
+                font-weight: bold; }
+    .footer-chr .newsletter-new-suscribe .newsletter-footer {
+      float: left;
+      direction: ltr;
+      padding-left: 10px;
+      padding-right: 10px;
+      -webkit-animation: showDelay 4s ease-in;
+      -moz-animation: showDelay 4s ease-in;
+      animation: showDelay 4s ease-in;
+      float: none;
+      padding: 0;
+      display: block;
+      margin: 0 auto; }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          padding-left: 0;
+          padding-right: 0; } }
+      @media screen and (min-width: 1440px) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          width: 41.66667%; } }
+      @media screen and (max-width: 1440px) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          width: 58.33333%; } }
+      @media screen and (max-width: 1024px) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          width: 75%; } }
+      @media screen and (max-width: 480px) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          width: 91.66667%; } }
+      @media screen and (max-width: 800px) {
+        .footer-chr .newsletter-new-suscribe .newsletter-footer {
+          width: 91.66667%; } }
+      .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 16.66667%;
+        float: right;
+        padding: 0;
+        margin: 0 auto;
+        display: table; }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+            padding-left: 0;
+            padding-right: 0; } }
+        @media screen and (min-width: 1440px) {
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+            width: 16.66667%; } }
+        @media screen and (max-width: 1024px) {
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+            width: 16.66667%; } }
+        @media screen and (max-width: 800px) {
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+            width: 25%; } }
+        @media screen and (max-width: 480px) {
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby {
+            width: 41.66667%; } }
+        .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 33.33333%;
+          float: none;
+          color: #FFF;
+          font-size: 10px;
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0;
+          text-align: right; }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt {
+              padding-left: 0;
+              padding-right: 0; } }
+        .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered {
+          float: left;
+          direction: ltr;
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 16.66667%;
+          float: none;
+          padding: 0;
+          display: table-cell;
+          vertical-align: middle; }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+            .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered {
+              padding-left: 0;
+              padding-right: 0; } }
+          .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered svg {
+            width: 100%;
+            height: auto;
+            display: block;
+            fill: white; }
 
 .share_contsingle {
   float: left;

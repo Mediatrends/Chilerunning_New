@@ -1,3 +1,43 @@
+@keyframes movenews {
+    0% {
+		@include transform( perspective(800px) rotateX(-90deg));
+        opacity: 1;
+    } 
+    40% {
+        @include transform( perspective(800px) rotateX(30deg));
+        opacity: 1;
+    }
+    70% {
+         @include transform( perspective(800px) rotateX(-10deg));
+    }
+    100% {
+         @include transform( perspective(800px) rotateX(0deg));
+         opacity: 1;
+    }
+}
+@keyframes showDelay {
+	0% {
+		visibility: hidden;
+		opacity: 0;
+	}
+	50% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+.animation-pop {
+	-moz-background-clip: padding;
+	-o-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #fff; 
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.18); 
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.18); 
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.18); 
+	box-shadow: 0 0 10px rgba(0,0,0,.18); 
+	@include animation(movenews 1.2s forwards);
+	@include transform-origin(top center);
+}
 .footer-chr {
 	@include gridle(12);
 	background: {color:$main_color;}
@@ -435,5 +475,367 @@
 				}
 			}
 		}
+	}
+	.bg-newsletter {
+		@include gridle(12);
+		@include gridle_float(none);
+		@extend .no-paddings; 
+		background: #000;
+		opacity: 0.6;
+		height: 100%;
+		width: 100%;
+	    position: fixed;
+	    z-index: 9999999999;
+	    top: 0;
+	    left: 0; 
+	    display: none;
+	}
+	.newsletter-new-suscribe {
+		@include gridle(12);
+		@include gridle_float(none);
+		@extend .no-paddings; 
+		@extend .text-center;
+		height: 100%;
+		width: 100%;
+	    position: fixed;
+	    z-index: 99999999999;
+	    top: 0;
+	    display: none;
+	    .content-popups {
+	    	@include gridle(5, desktopess);  
+	    	@include gridle(7, notebook-min);
+	    	@include gridle(9, tabless-min);
+	    	@include gridle(11, phoness-min phoness);
+	    	@include gridle_float(none); 
+	    	@extend .no-paddings;
+			height:auto;
+			background:{color:#FFF;}
+			display: block;
+			margin:{top:15%;left:auto;bottom:0;right:auto;}
+			position: relative;
+			border:{top:7px solid $main_color;} 
+			font:{family:$main_font;}
+			@include gridle_state(phoness-min) {
+				margin:{top:20px;left:0;right:0;}
+			}
+ 			 .close-button-popups {
+				position: absolute;
+				right: 10px;
+				top:7px;
+				cursor:pointer;
+				z-index: 99;
+				i {
+					color:$main_color;
+	    			font:{size: 18px;}
+				}
+		    }
+		    .first-box-popups {
+		    	@include gridle(12);
+		    	padding:{top:20px;bottom:40px;}
+		    	position: relative;
+		    	background: {color:#FFF;}
+		    	@include gridle_state(phoness-min) {
+		    		padding:{bottom:15px;}
+		    	}
+			    .title-popups {
+			    	@include gridle(8);
+			    	@include gridle(12, phoness-min);
+			    	@include gridle_float(none);
+			    	display: block;
+			    	margin:0 auto;
+			    	padding:{right:0; bottom:20px;left:0;}
+			    	border:{bottom:1px solid #e6e6e6;}
+			    	.logotipe-popups {
+						@include gridle(2);
+						@include gridle_float(none);
+			    		@extend .no-paddings;
+			    		display: inline-block;
+			    		svg {
+			    			fill:$main_color;
+			    		}
+			    	}
+			    	.title-content-p {
+						@include gridle(9);
+						@include gridle_float(none);
+			    		@extend .text-left;
+			    		display: inline-block;
+			    		.suscribe-p {
+							color:$main_color;
+							font:{size: 17px;}
+							text:{transform:uppercase;}
+							@include gridle_state(phoness-min) {
+								font:{size: 13px;}
+							}	
+			    		}
+			    		.title-news {
+			    			font:{size: 52px; weight: bold;}
+							line-height: 35px;
+							color:$main_color;
+							text:{transform:uppercase;}
+							@include gridle_state(phoness-min) {
+								font:{size: 29px;}
+								line-height:19px;
+							}
+			    		}
+			    	}
+			    }
+			    .body-popups {
+		    		@include gridle(8);
+		    		@include gridle(12, phoness-min);
+					@include gridle_float(none);
+		    		@extend .text-left;
+		    		display: block;
+		    		margin:0 auto;
+		    		padding: 35px 0;
+		    		@include gridle_state(phoness-min) {
+		    			padding: 18px 0;
+		    		}	
+		    		.social-popups {
+		    			@include gridle(4);
+		    			@include gridle(12,phoness-min);
+		    			@extend .text-center;
+		    			@extend .no-paddings;
+		    			ul {
+							margin:0;
+							padding:0;
+							li {
+								height: 40px;
+								width: 40px;
+								border:{radius:50%;}
+								background:$main_color;
+								display: inline-block;
+								list-style: none;
+								margin: 0 5px !important;
+								@include gridle_state(phoness) {
+									height: 35px;
+									width: 35px;
+								}
+								a {
+									text:{align:center;}
+									height: inherit;
+									width: inherit;
+									display: table;
+									i {
+										display: table-cell;
+										vertical-align: middle;
+										color: #fff;
+										font:{size: 24px;}
+										@include gridle_state(phoness) {
+											font:{size: 18px;} 
+										}	
+									}
+								}
+							}
+						}
+		    		}
+		    		.textbody-popups {
+		    			@include gridle(8);
+		    			@include gridle(12, phoness-min);
+						@extend .text-left;
+						font:{size:15px;}
+						color:$main_color;
+						@include gridle_state(phoness-min) {
+							display: none;
+						}
+						p {
+							@extend .no-margins;
+						}
+		    		}
+		    	}
+		    	.arrow-middle {
+		    		width: 18px;
+		    		height: 18px;
+		    		background: #FFF;
+		    		position: absolute;
+		    		bottom:-9px;
+		    		left:0;
+		    		right: 0;
+		    		margin:0 auto;
+		    		@include transform(rotate(45deg));
+		    	}	
+		    }
+		    .second-box-popups {
+		    	@include gridle(12);
+		    	background: $main_color;
+		    	padding:{top:5px; bottom:25px;}
+			    .form-popups-news {
+		    		@include gridle(10);
+		    		@include gridle(12,phoness-min);
+		    		@include gridle_float(none);
+		    		.mymail-form  {
+						.mymail-wrapper {
+							&.mymail-email-wrapper {
+								@include gridle(6);
+								@include gridle(12, phoness-min);
+								@extend .no-paddings;
+								@extend .text-left;
+								label {
+									color: #fff;
+									font:{style: italic;}
+									span {
+										&.required {
+											color:$sec_color !important;
+										}
+									}
+								}
+								input{
+									@include gridle(12);
+									color:#fff;
+									border: none;
+									height: 30px;
+									font:{size:15px;family:$main_font;}
+									background:{color:rgba(255,255,255,.13);}
+									outline: none;
+									@include placeholder{
+										color: #fff;	
+									}
+									@include gridle_state(tabless-md) {
+										 width: 96%;
+									}
+									@include gridle_state(phoness phoness-min) {
+										 width: 100%;
+									}
+								}
+							}
+							&.mymail-firstname-wrapper {
+								@include gridle(6);
+								@include gridle(12, phoness-min);
+								@extend .text-left;
+								padding:{right:0;}
+								@include gridle_state(phoness-min) {
+									padding: 0;
+								}
+								label {
+									color: #fff;
+									font:{style: italic;}
+									span {
+										&.required {
+											color:$sec_color !important;
+
+										}
+									}
+								}
+								input{
+									@include gridle(12);
+									color:#fff;
+									border: none;
+									height: 30px;
+									outline: none;
+									font:{size:15px;family:$main_font;} 
+									background:{color:rgba(255,255,255,.13);}
+									@include placeholder{ 
+										color: #fff;	
+									}
+									@include gridle_state(tabless-md) {
+										 width: 96%;
+									}
+									@include gridle_state(phoness phoness-min) {
+										 width: 100%;
+									}
+								}
+							}
+							&.mymail-submit-wrapper {
+								&.form-submit {
+									@include gridle(12); 
+									@extend .no-paddings;
+									input {
+										@include gridle(12);
+										@extend .no-paddings;
+										background:{color: #252a6e;}
+										outline: none;
+										border: 0;
+										height: 37px;
+										margin:{top: 10px;}
+										color: #fff;
+										text:{transform: uppercase;}
+										font:{weight: lighter;}
+									}  
+								}
+							}
+						}
+						.mymail-loader {
+							display: none !important;
+							visibility: hidden !important;
+						} 
+						.mymail-form-info {
+							padding:{top:10px;}
+							&.error {
+								background: none;
+								border-radius:0;
+								text:{align:center;}
+								p {
+									@extend .no-margins;
+									color:#fff;
+								}
+								ul {
+									li {
+										color:#fff !important;
+										font:{weight:bold;}
+									}
+								}
+							}
+							&.success {
+								background: none;  
+								border-radius:0;
+								text:{align:center;}
+								p {
+									@extend .no-margins;
+									color:#fff;
+								}
+								ul {
+									li {
+										color:#fff !important;
+										font:{weight:bold;}
+									}
+								}
+							}
+						}
+					}
+		    	}	
+		    }
+	    }
+	    .newsletter-footer {
+	    	@include gridle(5, desktopess);  
+	    	@include gridle(7, notebook-min);
+	    	@include gridle(9, tabless-min);
+	    	@include gridle(11, phoness-min phoness);
+	    	@include animation(showDelay 4.0s ease-in);
+	    	@include gridle_float(none); 
+	    	padding:0;
+	    	display: block;
+	    	margin:0 auto;
+		    .content-poweredby {
+				@include gridle(2, desktopess noteboo-min tabless-min);  
+				@include gridle(3, phoness);  
+				@include gridle(5, phoness-min);  
+				@include gridle_float(right);
+				padding: 0;
+				margin:0 auto;
+				display: table;
+				.powered-txt {
+					@include gridle(4);
+					@include gridle_float(none);
+					color: #FFF;
+					font:{size: 10px;}
+					display: table-cell;
+					vertical-align: middle;
+					padding: 0;
+					text:{align:right;}
+				}
+				.logo-powered {
+					@include gridle(2);
+					@include gridle_float(none);
+					padding:0;
+					display: table-cell;
+					vertical-align: middle;
+					svg {
+						width: 100%;
+						height: auto;
+						display: block;
+						fill: white;
+					} 
+				}
+			}	
+	    }
 	}
 }

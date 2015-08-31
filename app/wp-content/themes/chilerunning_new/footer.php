@@ -2,6 +2,7 @@
 		<!-- /wrapper -->
 
 		<!-- footer -->
+
 		<footer class="footer-chr" role="contentinfo">
 
 		<div class="content-chr">
@@ -60,6 +61,68 @@
 			</div>
 			
 
+		</div>
+
+		<div class="bg-newsletter"></div>
+		<div class="newsletter-new-suscribe"> 
+			<div class="content-popups animation-pop">
+
+				<?php $my_query = new WP_Query( 'p=1371' ); ?>
+
+				<?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+
+					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+						<div class="close-button-popups">
+							<i class="fa fa-times"></i>
+						</div>
+						<div class="first-box-popups">
+							<div class="title-popups">
+								<div class="logotipe-popups">
+									<svg viewBox="0 0 28.857 28.857">
+										<use xlink:href="#svg_logo"></use>
+									</svg>
+								</div>
+								<div class="title-content-p">
+									<div class="suscribe-p">Suscrubete a nuestro</div>
+									<div class="title-news"><?php the_title(); ?></div>
+								</div>
+							</div>
+							<div class="body-popups">
+								<div class="social-popups">
+									<ul>
+										<li><a href="https://www.facebook.com/chilerunningscl"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/chilerunningscl"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://instagram.com/chilerunning/"><i class="fa fa-instagram"></i></a></li>
+									</ul>
+								</div>
+								<div class="textbody-popups"><?php the_content(); ?></div>
+							</div>	
+							<div class="arrow-middle"></div>
+						</div>
+						<div class="second-box-popups">
+							<div class="form-popups-news">
+								<div><?php echo do_shortcode('[newsletter_signup_form id=0]' ); ?></div>
+							</div>
+						</div>
+
+					</article>
+					
+				<?php endwhile; ?>
+			</div>
+			<div class="newsletter-footer">
+				<div class="content-poweredby">
+					<div class="powered-txt">Powered By</div>
+					<div class="logo-powered">
+						<a href="http://mediatrends.cl/" target="_blank"> 
+							<svg viewBox="0 0 792 656.856">
+								<use xlink:href="#mediatrends-logo" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 			
 			

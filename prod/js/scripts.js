@@ -295,5 +295,26 @@
 		});
 
 	});
-	
+
+	$(window).scroll(function() {
+
+	    if ($(this).scrollTop()>1200)
+	     {
+	        $('.bg-newsletter').show();
+	        $('.newsletter-new-suscribe').show();
+	        $('.content-poweredby').show(); 
+	     }
+	});
+
+
+
+
+
 } ( this, jQuery ));
+
+	$('.close-button-popups').click(function(){
+	    $('.newsletter-new-suscribe').remove();
+	    $('.bg-newsletter').remove();
+	    $('.newsletter-footer').remove(); 
+	});
+
