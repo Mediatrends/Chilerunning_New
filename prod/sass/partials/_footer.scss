@@ -500,6 +500,7 @@
 	    position: fixed;
 	    z-index: 99999999999;
 	    top: 0;
+	    left:0;
 	    display: none;
 	    .content-popups {
 	    	@include gridle(5, desktopess);  
@@ -838,4 +839,16 @@
 			}	
 	    }
 	}
+}
+.fade-in-up {
+	@include animation(fade-in-up 0.9s ease-in forwards); 
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

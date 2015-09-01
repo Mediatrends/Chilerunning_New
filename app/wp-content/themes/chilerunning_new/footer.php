@@ -64,8 +64,8 @@
 		</div>
 
 		<div class="bg-newsletter"></div>
-		<div class="newsletter-new-suscribe"> 
-			<div class="content-popups animation-pop">
+		<div class="newsletter-new-suscribe">  
+			<div class="content-popups">
 
 				<?php $my_query = new WP_Query( 'p=1371' ); ?>
 

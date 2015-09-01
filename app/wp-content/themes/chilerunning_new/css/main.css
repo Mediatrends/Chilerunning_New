@@ -3614,6 +3614,7 @@ header {
     position: fixed;
     z-index: 99999999999;
     top: 0;
+    left: 0;
     display: none; }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
       .footer-chr .newsletter-new-suscribe {
@@ -4121,6 +4122,16 @@ header {
             display: block;
             fill: white; }
 
+.fade-in-up {
+  -webkit-animation: fade-in-up 0.9s ease-in forwards;
+  -moz-animation: fade-in-up 0.9s ease-in forwards;
+  animation: fade-in-up 0.9s ease-in forwards; }
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 .share_contsingle {
   float: left;
   direction: ltr;
