@@ -55,7 +55,10 @@ module.exports = function(grunt){
 			beauty:{
 				options:{
 					beautify:true
-				}	
+				},
+				files:{
+			        'app/wp-content/themes/chilerunning_new/js/output.min.js': ['prod/js/scripts.js']
+			    }
 			},
 			all:{
 				files:{

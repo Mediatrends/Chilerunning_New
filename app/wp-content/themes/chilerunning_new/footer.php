@@ -62,6 +62,7 @@
 			
 
 		</div>
+		
 
 		<div class="bg-newsletter"></div>
 		<div class="newsletter-new-suscribe">  
@@ -76,6 +77,7 @@
 						<div class="close-button-popups">
 							<i class="fa fa-times"></i>
 						</div>
+
 						<div class="first-box-popups">
 							<div class="title-popups">
 								<div class="logotipe-popups">
@@ -99,6 +101,8 @@
 								<div class="textbody-popups"><?php the_content(); ?></div>
 							</div>	
 							<div class="arrow-middle"></div>
+
+							<div style="clear:both;width:100%;"></div>
 						</div>
 						<div class="second-box-popups">
 							<div class="form-popups-news">
@@ -110,6 +114,7 @@
 					
 				<?php endwhile; ?>
 			</div>
+
 			<div class="newsletter-footer">
 				<div class="content-poweredby">
 					<div class="powered-txt">Powered By</div>
