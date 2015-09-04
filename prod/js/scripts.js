@@ -320,6 +320,7 @@
 				        				bottom:'-8px'
 				        			});
 				        			$('.second-box-popups').delay(1000).show().animate({marginTop:0},{duration:1000});
+											alert('holi');
 					        	}
 				        	}).slideDown(1000);
 
