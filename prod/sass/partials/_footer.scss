@@ -25,6 +25,24 @@
 		opacity: 1;
 	}
 }
+@keyframes borderHeights{
+	0%{
+		border:0 solid;
+		padding:{top:0;bottom:0;}
+		height: 0;
+	}
+	50%{
+		border:{top:3px solid $main_color;}
+	}
+	100%{
+		border:{top:7px solid $main_color;}
+		padding:{top:20px;}
+		height: 250px;
+	}
+}
+.borderHeightsAnimate{
+	@include animation(borderHeights .5s forwards);
+}
 .animation-pop {
 	-moz-background-clip: padding;
 	-o-background-clip: padding;
@@ -510,11 +528,9 @@
 	    	@include gridle_float(none); 
 	    	@extend .no-paddings;
 			height:auto;
-			background:{color:#FFF;}
 			display: block;
 			margin:{top:15%;left:auto;bottom:0;right:auto;}
 			position: relative;
-			border:{top:7px solid $main_color;} 
 			font:{family:$main_font;}
 			@include gridle_state(phoness-min) {
 				margin:{top:20px;left:0;right:0;}
@@ -525,6 +541,7 @@
 				top:7px;
 				cursor:pointer;
 				z-index: 99;
+				opacity: 0;
 				i {
 					color:$main_color;
 	    			font:{size: 18px;}
@@ -532,9 +549,9 @@
 		    }
 		    .first-box-popups {
 		    	@include gridle(12);
-		    	padding:{top:20px;bottom:40px;}
 		    	position: relative;
 		    	background: {color:#FFF;}
+				border:{left:0;right:0;}
 		    	@include gridle_state(phoness-min) {
 		    		padding:{bottom:15px;}
 		    	}
@@ -542,10 +559,13 @@
 			    	@include gridle(8);
 			    	@include gridle(12, phoness-min);
 			    	@include gridle_float(none);
-			    	display: block;
 			    	margin:0 auto;
-			    	padding:{right:0; bottom:20px;left:0;}
+			    	position: absolute;
+			    	left:0;
+			    	right:0;
+			    	padding:{right:0; bottom:30px;left:0;}
 			    	border:{bottom:1px solid #e6e6e6;}
+			    	opacity:0;
 			    	.logotipe-popups {
 						@include gridle(2);
 						@include gridle_float(none);
@@ -585,9 +605,13 @@
 		    		@include gridle(12, phoness-min);
 					@include gridle_float(none);
 		    		@extend .text-left;
-		    		display: block;
 		    		margin:0 auto;
 		    		padding: 35px 0;
+		    		opacity:0;
+		    		left:0;
+		    		right:0;
+		    		top:120px;
+		    		position: absolute;
 		    		@include gridle_state(phoness-min) {
 		    			padding: 18px 0;
 		    		}	
@@ -648,17 +672,20 @@
 		    		height: 18px;
 		    		background: #FFF;
 		    		position: absolute;
-		    		bottom:-9px;
+		    		bottom:8px;
 		    		left:0;
 		    		right: 0;
 		    		margin:0 auto;
 		    		@include transform(rotate(45deg));
+		    		@include gridle_hide();
 		    	}	
 		    }
 		    .second-box-popups {
 		    	@include gridle(12);
 		    	background: $main_color;
 		    	padding:{top:5px; bottom:25px;}
+		    	margin:{top:-150px;}
+		    	display:none;
 			    .form-popups-news {
 		    		@include gridle(10);
 		    		@include gridle(12,phoness-min);
@@ -839,16 +866,4 @@
 			}	
 	    }
 	}
-}
-.fade-in-up {
-	@include animation(fade-in-up 0.9s ease-in forwards); 
-}
-
-@keyframes fade-in-up {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
