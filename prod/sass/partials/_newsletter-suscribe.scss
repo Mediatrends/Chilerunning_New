@@ -1,0 +1,450 @@
+.newsletter-cr-pages {
+	.tit_bar {
+		margin:{bottom:0 !important;}
+	}
+	 .imagen-top-suscribe {
+	 	@include gridle(12);
+	 	padding:{left:0;right:10px;}
+	 	overflow: hidden; 
+	 	@include gridle_state(phoness) {
+			padding:{right:0;}
+		}
+	 	img {
+	 		width:100%;
+	 		height: auto;
+	 		display: block;
+	 	}
+	 }
+	 .content-suscribe-cr {
+	 	@include gridle(12);
+	 	padding:{left:0;}
+	 	@include gridle_state(phoness) {
+			padding:{right:0;}
+		}
+		 .blue-suscribe {
+		 	@include gridle(12);
+		 	background: $main_color;  
+		 	font:{family:$main_font;}
+		 	color:#FFF;
+		 	text:{align:center;}
+		 	h1 {
+				font:{size:30px;}
+				text:{transform:uppercase;}
+				margin:{bottom:0;}
+				@include gridle_state(phoness) {
+					font:{size: 17px;}
+				}
+				@include gridle_state(tabless) {
+					font:{size: 25px;}
+				}
+		 	}
+		 	h2 {
+		 		font:{size:15px;weight:300;style:italic;}
+		 		margin:{top:0;}
+		 		letter-spacing: 1px;
+		 		@include gridle_state(phoness) {
+					font:{size: 12px;}
+				}
+		 	}
+		 	.be-social-cr {
+		 		margin:{top:25px;bottom:40px;}
+		 		@include gridle_state(phoness) {
+					margin:{top:15px;bottom:20px;}
+				}
+		 		.cr-social {
+		 			font:{family:$main_font;weight:300;style:italic;}
+		 			text:{transform:uppercase;}
+		 			font:{size:12px;}
+		 			letter-spacing: 1px;
+		 		}
+		 		ul {
+		 			margin:10px 0 !important;
+	 				li {
+	 					display: inline-block;
+	 					border: 3px solid #fff;
+	 					height: 30px;
+	 					width: 30px;
+	 					margin:{right: 20px !important;}
+	 					&:last-child{
+	 						margin:{right:0 !important;}
+	 					}
+	 					@include gridle_state(phoness) {
+							height: 25px;
+	 						width: 25px;
+						}
+	 				}
+	 				a {
+	 					color:#fff;
+	 					font:{size: 23px;}
+	 					@include gridle_state(phoness) {
+							font:{size: 18px;}
+						}
+	 					i {
+	 					}
+	 				}
+	 			}
+		 	}
+		 	.btn-unsubscribe {
+		 		@include gridle(2);
+		 		@include gridle(7, phoness);
+		 		@include gridle_float(none);
+		 		margin: 0 auto;
+		 		display: block;
+		 		a {
+		 			@include gridle(12);
+		 			background: $sec_color;
+		 			color:$main_color;
+					font:{weight:700;size: 15px;}
+					text:{decoration:none;}
+    				padding: 8px 0;
+    				margin: 20px 0 40px;
+		 		}
+		 	}
+		 	.darse-de-baja {
+		 		@include gridle(8);
+		 		@include gridle(11, tabless-md);
+		 		@include gridle_float(none);
+		 		margin:0 auto;
+		 		margin:{bottom:30px;}
+		 		.mymail-form-unsubscribe {
+		 			.mymail-wrapper {
+						&.mymail-email-wrapper {
+							@include gridle(6);
+							@include gridle(12, phoness-min);
+							@extend .no-paddings;
+							@extend .text-left;
+							label {
+								color: #fff;
+								font:{style: italic;}
+								span {
+									&.required {
+										color:$sec_color !important;
+									}
+								}
+							}
+							input{
+								@include gridle(12);
+								color:#fff;
+								border: none;
+								height: 36px;
+								font:{size:15px;family:$main_font;}
+								background:{color:rgba(255,255,255,.13);}
+								outline: none;
+								@include placeholder{
+									color: #fff;	
+								}
+								@include gridle_state(tabless-md) {
+									 width: 96%;
+								}
+								@include gridle_state(phoness phoness-min) {
+									 width: 100%;
+								}
+							}
+						}
+						&.mymail-submit-wrapper {
+							&.form-submit {
+								@include gridle(6); 
+								@include gridle(12, phoness); 
+								margin:{top: 8px;}
+								@include gridle_state(phoness) {
+									padding:0;
+									margin:{top:0;}
+								}
+								input {
+									@include gridle(12);
+									@extend .no-paddings;
+									background:{color: #252a6e;}
+									outline: none;
+									border: 0;
+									height: 37px;
+									margin:{top: 10px;}
+									color: #fff;
+									text:{transform: uppercase;}
+									font:{weight:bold;size: 12px;}
+								}  
+							}
+						}
+					}
+				.mymail-loader {
+						display: none !important;
+						visibility: hidden !important;
+					} 
+					.mymail-form-info {
+						padding:{top:10px;}
+						&.error {
+							background: none;
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+						&.success {
+							background: none;  
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}	
+		 		}
+		 	}
+		}
+	 }
+	.formulario-pagina-cr {
+		@include gridle(12);
+		height: auto;
+		position: relative;
+		@include gridle_state(tabless-md){
+			padding:0 !important;
+		}
+		.image-form-cr {
+			@include gridle_float(right);
+			padding:{left:0;right:10px;}
+			overflow: hidden; 
+			position: absolute;
+			right: 0;
+			height: 100%;
+			width: 50%;
+			@include gridle_state(phoness) {
+				position: relative;
+				width: 100%;
+			}
+			img {
+				width:auto;
+				height:100%;
+				display: block;
+			}
+			.be-social2 {
+				@include gridle(12);
+				position: absolute;
+				bottom:20px;
+				text:{align: center;}
+				.cr-social2 {
+					font:{family:$main_font;weight:300;style:italic;}
+		 			text:{transform:uppercase;}
+		 			font:{size:12px;}
+		 			letter-spacing: 1px;
+		 			color:#fff;
+		 			display: inline-block;
+		 			width: auto;
+		 			padding:{right: 10px;}
+				}
+				ul {
+					display: inline-block;
+	 				li {
+	 					display: inline-block;
+	 					border: 3px solid #fff;
+	 					height: 30px;
+	 					width: 30px;
+	 					margin:{right: 20px !important;}
+	 					&:last-child{
+	 						margin:{right:0 !important;}
+	 					}
+	 					@include gridle_state(phoness) {
+							height: 25px;
+	 						width: 25px;
+						}
+	 				}
+	 				a {
+	 					color:#fff;
+	 					font:{size: 23px;}
+	 					@include gridle_state(phoness) {
+							font:{size: 18px;}
+						}
+	 					i {
+	 					}
+	 				}
+	 			}
+			}
+		}
+		.content-form-cr {
+			@include gridle(6);
+			@include gridle(12, phoness);
+			background: $main_color;  
+		 	font:{family:$main_font;}
+		 	color:#FFF;
+		 	padding:40px;
+		 	@include gridle_state(phoness) {
+				padding:20px;
+			}
+		 	.logo {
+		 		@include gridle(2);
+		 		@include gridle(4, phoness);
+		 		@include gridle_float(none);
+		 		padding:{left:0;}
+		 		svg {
+		 			fill:#fff;	
+		 		}
+
+		 	}
+		 	h1 {
+		 		font:{size:40px;}
+		 		display: block;
+		 		margin:0;
+		 		line-height: 35px;
+		 		@include gridle_state(phoness) {
+					font:{size:30px;}
+				} 
+		 	}
+		 	h2 {
+		 		font:{size:25px;}
+		 		display: block;
+		 		margin:30px 0 0;
+		 		@include gridle_state(phoness) {
+					font:{size:18px;}
+				}
+		 	}
+		 	.formulario-cr-nw {
+		 		.mymail-form  {
+					.mymail-wrapper {
+						&.mymail-email-wrapper {
+							@include gridle(12);
+							@extend .no-paddings;
+							label {
+								color: #fff;
+								font:{style: italic;}
+								span {
+									&.required {
+										color:$sec_color !important;
+									}
+								}
+							}
+							input{
+								@include gridle(12);
+								color:#fff;
+								border: none;
+								height: 40px;
+								font:{size:15px;family:$main_font;}
+								background:{color:rgba(255,255,255,.13);}
+								outline: none;
+								@include placeholder{
+									color: #fff;	
+								}
+								@include gridle_state(tabless-md) {
+									 width: 96%;
+								}
+								@include gridle_state(phoness phoness-min) {
+									 width: 100%;
+								}
+							}
+						}
+						&.mymail-firstname-wrapper {
+							@include gridle(12);
+							@extend .no-paddings;
+							@include gridle_state(phoness-min) {
+								padding: 0;
+							}
+							label {
+								color: #fff;
+								font:{style: italic;}
+								span {
+									&.required {
+										color:$sec_color !important;
+
+									}
+								}
+							}
+							input{
+								@include gridle(12);
+								color:#fff;
+								border: none;
+								height: 40px;
+								outline: none;
+								font:{size:15px;family:$main_font;} 
+								background:{color:rgba(255,255,255,.13);}
+								@include placeholder{ 
+									color: #fff;	
+								}
+								@include gridle_state(tabless-md) {
+									 width: 96%;
+								}
+								@include gridle_state(phoness phoness-min) {
+									 width: 100%;
+								}
+							}
+						}
+						&.mymail-submit-wrapper {
+							&.form-submit {
+								@include gridle(12);
+								@extend .no-paddings;
+								input {
+									@include gridle(12);
+									@extend .no-paddings;
+									background:{color: #252a6e;}
+									outline: none;
+									border: 0;
+									height: 42px;
+									margin:{top: 18px;}
+									color: #fff;
+									text:{transform: uppercase;}
+									font:{weight:bold;}
+									letter-spacing: 1px;
+								}  
+							}
+						}
+					}
+					.mymail-loader {
+						display: none !important;
+						visibility: hidden !important;
+					} 
+					.mymail-form-info {
+						&.error {
+							background: none;
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+						&.success {
+							background: none;  
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:#fff;
+							}
+							ul {
+								li {
+									color:#fff !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}
+				}
+		 	}
+		}
+	}
+	
+	.loop-suscribe {
+		@include gridle(12);
+		margin:{bottom:50px;}
+		@include gridle_state(phoness) {
+			padding:0;
+		}
+	}
+}
