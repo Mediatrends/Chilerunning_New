@@ -10,7 +10,7 @@
 	
 	<div id="mt_300x250_A"></div>
 
-		<?php $query = new WP_Query('posts_per_page=4&category_name=entrenamiento'); ?>
+		<?php $query = new WP_Query('posts_per_page=4&category_name=entrenamiento,equipamiento,motivacion,salud-nutricion'); ?>
 
 		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
