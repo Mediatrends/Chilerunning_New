@@ -1,6 +1,6 @@
 module.exports = function(grunt){
 	require('jit-grunt')(grunt);
-	
+
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
@@ -57,8 +57,8 @@ module.exports = function(grunt){
 					beautify:true
 				},
 				files:{
-			        'app/wp-content/themes/chilerunning_new/js/output.min.js': ['prod/js/scripts.js']
-			    }
+			    'app/wp-content/themes/chilerunning_new/js/output.min.js': ['prod/js/scripts.js']
+			  }
 			},
 			all:{
 				files:{

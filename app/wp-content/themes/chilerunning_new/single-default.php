@@ -5,7 +5,8 @@ Description: default post type
 */
 ?>
 <?php get_header(); ?>
-	
+
+
 	<?php include (TEMPLATEPATH . '/970x90_all-ad.php'); ?>
 	
 	<div class="share_contsingle"></div>
@@ -51,7 +52,13 @@ Description: default post type
 						<p class="date"><span>Publicado en:</span> <?php echo get_the_date(); ?></p>
 					</div>
 					
-					<div id="mt_728x90_cont" class="adblocks_728x90-single"></div>
+					<div id="mt_728x90_cont" class="adblocks_728x90-single">
+						
+						<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+						  googletag.pubads().definePassback('/92947493/728x90_CONT-SINGLE', [728, 90]).display();
+						</script>
+
+					</div>
 
 					<?php the_content(); // Dynamic Content ?>
 					

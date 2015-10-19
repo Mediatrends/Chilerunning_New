@@ -53,6 +53,25 @@
 		     fjs.parentNode.insertBefore(js, fjs);
 		   }(document, 'script', 'facebook-jssdk'));
 		</script>
+
+		<script type='text/javascript'>
+		  (function() {
+		    var useSSL = 'https:' == document.location.protocol;
+		    var src = (useSSL ? 'https:' : 'http:') +
+		        '//www.googletagservices.com/tag/js/gpt.js';
+		    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+		  })();
+		</script>
+
+		<script type='text/javascript'>
+		  googletag.cmd.push(function() {
+		    googletag.defineSlot('/20099485/RMKT_ALL', [1, 1], 'div-gpt-ad-1442426715991-0').addService(googletag.pubads());
+		    googletag.pubads().collapseEmptyDivs();
+		    googletag.pubads().enableSyncRendering();
+		    googletag.enableServices();
+		  });
+		</script>
+
 	</head>
 	<body <?php body_class(); ?>>
 		

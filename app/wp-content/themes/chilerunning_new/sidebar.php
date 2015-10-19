@@ -2,9 +2,29 @@
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
 	
-	<div id="mt_300x250_A" clas="adblocks_300x250"></div>
+	<div id="mt_300x250_A" clas="adblocks_300x250">
+		 
+		<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+		  googletag.pubads().definePassback('/92947493/300x250_CR_sidebar', [300, 250]).display();
+		</script>
 
-	<div id="mt_300x250_B" class="adblocks_300x250"></div>
+	</div>
+
+	<div id="mt_300x250_B" class="adblocks_300x250">
+		
+		<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+		  googletag.pubads().definePassback('/92947493/300x250_CR_sidebar_2', [300, 250]).display();
+		</script>
+
+	</div>
+
+	<div id="mt_300x600" class="adblocks_300x250">
+		
+		<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+		  googletag.pubads().definePassback('/92947493/300x600_CR_ALL', [300, 600]).display();
+		</script>
+
+	</div>
 	
 
 	<div class="fb-page" data-href="https://www.facebook.com/chilerunningscl" data-width="300" data-hide-cover="false" data-show-facepile="false" data-show-posts="true" style="margin:5px auto;"></div>
