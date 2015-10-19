@@ -26,7 +26,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .newsletter-new-suscribe .newsletter-footer, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav, .unsuscribe-content, .newsletter-cr-pages .imagen-top-suscribe, .newsletter-cr-pages .content-suscribe-cr, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .btn-unsubscribe, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .btn-unsubscribe a, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .formulario-pagina-cr, .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper input, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .loop-suscribe {
+.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, aside.sidebar, aside.sidebar form, aside.sidebar form input[type="email"], aside.sidebar form input[type="submit"], .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena, .wrapper .motiva_content #entrena, .wrapper .equipa_content #entrena, .wrapper .motiva_content #motiva, .wrapper .entrena_content #entrena.first, .wrapper .motiva_content #entrena.first, .wrapper .equipa_content #entrena.first, .wrapper .entrena_content #entrena.last, .wrapper .motiva_content #entrena.last, .wrapper .equipa_content #entrena.last, .wrapper .motiva_content .last#motiva, .wrapper .motiva_content #motiva.last_mot, .wrapper .motiva_content .first#motiva, .wrapper .motiva_content #motiva.first_mot, .wrapper .entrena_content #entrena.first article a main, .wrapper .motiva_content #entrena.first article a main, .wrapper .equipa_content #entrena.first article a main, .wrapper .entrena_content #entrena.last article a main, .wrapper .motiva_content #entrena.last article a main, .wrapper .equipa_content #entrena.last article a main, .wrapper .motiva_content .last#motiva article a main, .wrapper .motiva_content #motiva.last_mot article a main, .wrapper .motiva_content .first#motiva article a main, .wrapper .motiva_content #motiva.first_mot article a main, .wrapper .entrena_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_A, .wrapper .equipa_content #mt_300x250_A, .wrapper .motiva_content #mt_300x250_B, .wrapper .equipa_content #equipa, .wrapper .equipa_content #equipa .postes .tags, .wrapper .equipa_content .pagination, .wrapper .cont_post_calendar .meses, .wrapper .cont_post_calendar .meses .meses_cont, .wrapper .cont_post_calendar .meses .meses_cont .no_post, .wrapper .cont_post_calendar .meses .meses_cont .calendar, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main, header, header main .logo, header main .logo a, header main nav, header main .tools, header main .btn_menuph span, header .cont_search form input, .footer-chr, .footer-chr .content-chr, .footer-chr .content-chr .first-box, .footer-chr .content-chr .first-box .logo, .footer-chr .content-chr .second-box, .footer-chr .content-chr .second-box nav, .footer-chr .content-chr .second-box nav ul, .footer-chr .content-chr .third-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .icon-cont, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box, .footer-chr .content-chr .fifth-box .content-fifb, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .content-chr .fifth-box .content-fifb .copy-right-chr, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .title-content-p, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .newsletter-new-suscribe .newsletter-footer, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt, .footer-chr .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered, .share_contsingle, .share_contsingle .addthis_toolbox .count_share, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span, .share_contsingle .addthis_toolbox .shares, .content-single, .content-single section, .content-single section article .img-post, .content-single section article .author, .content-single section.related ul, .content-single section.related ul li a h3, .content-single .nav, .unsuscribe-content, .newsletter-cr-pages .imagen-top-suscribe, .newsletter-cr-pages .content-suscribe-cr, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .btn-unsubscribe, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .btn-unsubscribe a, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .formulario-pagina-cr, .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo.logo-formnew, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper input, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper input, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .loop-suscribe {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -1523,7 +1523,7 @@
 .no-margins, ul, ul li, html, html body, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, .footer-chr .content-chr .third-box .contact-one .info-cont h4, .footer-chr .content-chr .third-box .contact-one .info-cont h5, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.error p, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-form-info.success p, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .textbody-popups p, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.error p, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-form-info.success p, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p, .content-single section.related ul li a h3, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-form-info.error p, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-form-info.success p, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-form-info.error p, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-form-info.success p {
   margin: 0 !important; }
 
-.no-paddings, ul, ul li, html, html body, .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .swipe .swipe-wrap .content-slide article main p, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, header main .logo, header main .logo a, .footer-chr .content-chr .first-box, .footer-chr .content-chr .second-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input {
+.no-paddings, ul, ul li, html, html body, .barra_titulos, .wrapper .entrena_content .tit_bar, .wrapper .motiva_content .tit_bar, .wrapper .equipa_content .tit_bar, .wrapper .inner_tit_bar, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar, .barra_titulos h2, .wrapper .entrena_content .tit_bar h2, .wrapper .motiva_content .tit_bar h2, .wrapper .equipa_content .tit_bar h2, .wrapper .inner_tit_bar h2, .wrapper .cont_post_calendar .meses .meses_cont .tit_bar h2, .wrapper .swipe .swipe-wrap .content-slide article main h2, .wrapper .swipe .swipe-wrap .content-slide article main p, .wrapper .entrena_content, .wrapper .motiva_content, .wrapper .equipa_content, .wrapper .entrena_content #entrena h2, .wrapper .motiva_content #entrena h2, .wrapper .equipa_content #entrena h2, .wrapper .motiva_content #motiva h2, .wrapper .cont_post_calendar h1, .wrapper .cont_post_calendar .meses .meses_cont .calendar a main h3, header main .logo, header main .logo a, .footer-chr .content-chr .first-box, .footer-chr .content-chr .second-box, .footer-chr .content-chr .third-box .contact-one, .footer-chr .content-chr .third-box .contact-one .info-cont, .footer-chr .content-chr .fourth-box .news-box, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .content-chr .fourth-box .news-box .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .footer-chr .content-chr .fifth-box .content-fifb ul, .footer-chr .bg-newsletter, .footer-chr .newsletter-new-suscribe, .footer-chr .newsletter-new-suscribe .content-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .title-popups .logotipe-popups, .footer-chr .newsletter-new-suscribe .content-popups .first-box-popups .body-popups .social-popups, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-email-wrapper, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .footer-chr .newsletter-new-suscribe .content-popups .second-box-popups .form-popups-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, .share_contsingle .addthis_toolbox .count_share p, .share_contsingle .addthis_toolbox .count_share span a.addthis_button_expanded, .content-single section article .author p, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .newsletter-cr-pages .formulario-pagina-cr, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input {
   padding: 0 !important; }
 
 .resp_img {
@@ -4575,6 +4575,8 @@ header {
 
 .newsletter-cr-pages .tit_bar {
   margin-bottom: 0 !important; }
+  .newsletter-cr-pages .tit_bar h2 {
+    font-size: 14px !important; }
 .newsletter-cr-pages .imagen-top-suscribe {
   float: left;
   direction: ltr;
@@ -4771,9 +4773,6 @@ header {
           @media screen and (max-width: 1024px) {
             .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input {
               width: 96%; } }
-          @media screen and (max-width: 800px) {
-            .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input {
-              width: 100%; } }
           @media screen and (max-width: 480px) {
             .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input {
               width: 100%; } }
@@ -4788,10 +4787,13 @@ header {
           .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit {
             padding-left: 0;
             padding-right: 0; } }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 480px) {
           .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit {
             width: 100%; } }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 1024px) {
+          .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit {
+            padding: 0; } }
+        @media screen and (max-width: 480px) {
           .newsletter-cr-pages .content-suscribe-cr .blue-suscribe .darse-de-baja .mymail-form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit {
             padding: 0;
             margin-top: 0; } }
@@ -4860,15 +4862,25 @@ header {
     position: absolute;
     right: 0;
     height: 100%;
-    width: 50%; }
-    @media screen and (max-width: 800px) {
+    width: 50%;
+    margin-right: 10px; }
+    @media screen and (max-width: 1024px) {
+      .newsletter-cr-pages .formulario-pagina-cr .image-form-cr {
+        margin: 0; } }
+    @media screen and (max-width: 480px) {
       .newsletter-cr-pages .formulario-pagina-cr .image-form-cr {
         position: relative;
-        width: 100%; } }
+        width: 100%;
+        padding: 0;
+        height: 127px; } }
     .newsletter-cr-pages .formulario-pagina-cr .image-form-cr img {
       width: auto;
       height: 100%;
       display: block; }
+      @media screen and (max-width: 480px) {
+        .newsletter-cr-pages .formulario-pagina-cr .image-form-cr img {
+          width: 100%;
+          height: inherit; } }
     .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 {
       float: left;
       direction: ltr;
@@ -4893,6 +4905,10 @@ header {
         display: inline-block;
         width: auto;
         padding-right: 10px; }
+        @media screen and (max-width: 1024px) {
+          .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 .cr-social2 {
+            display: block;
+            margin-bottom: 10px; } }
       .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul {
         display: inline-block; }
         .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul li {
@@ -4903,14 +4919,14 @@ header {
           margin-right: 20px !important; }
           .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul li:last-child {
             margin-right: 0 !important; }
-          @media screen and (max-width: 800px) {
+          @media screen and (max-width: 480px) {
             .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul li {
               height: 25px;
               width: 25px; } }
         .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul a {
           color: #fff;
           font-size: 23px; }
-          @media screen and (max-width: 800px) {
+          @media screen and (max-width: 480px) {
             .newsletter-cr-pages .formulario-pagina-cr .image-form-cr .be-social2 ul a {
               font-size: 18px; } }
   .newsletter-cr-pages .formulario-pagina-cr .content-form-cr {
@@ -4927,10 +4943,16 @@ header {
       .newsletter-cr-pages .formulario-pagina-cr .content-form-cr {
         padding-left: 0;
         padding-right: 0; } }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 480px) {
       .newsletter-cr-pages .formulario-pagina-cr .content-form-cr {
         width: 100%; } }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1024px) {
+      .newsletter-cr-pages .formulario-pagina-cr .content-form-cr {
+        padding-top: 40px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+        padding-left: 15px; } }
+    @media screen and (max-width: 480px) {
       .newsletter-cr-pages .formulario-pagina-cr .content-form-cr {
         padding: 20px; } }
     .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo {
@@ -4945,9 +4967,22 @@ header {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo {
           padding-left: 0;
           padding-right: 0; } }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 480px) {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo {
           width: 33.33333%; } }
+      .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo.logo-formnew {
+        float: left;
+        direction: ltr;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 0; }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+          .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo.logo-formnew {
+            padding-left: 0;
+            padding-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo.logo-formnew {
+            width: 25%; } }
       .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .logo svg {
         fill: #fff; }
     .newsletter-cr-pages .formulario-pagina-cr .content-form-cr h1 {
@@ -4955,14 +4990,17 @@ header {
       display: block;
       margin: 0;
       line-height: 35px; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 480px) {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr h1 {
           font-size: 30px; } }
+      .newsletter-cr-pages .formulario-pagina-cr .content-form-cr h1.formnews {
+        clear: both;
+        line-height: 48px; }
     .newsletter-cr-pages .formulario-pagina-cr .content-form-cr h2 {
       font-size: 25px;
       display: block;
       margin: 30px 0 0; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 480px) {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr h2 {
           font-size: 18px; } }
     .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper {
@@ -5006,9 +5044,6 @@ header {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper input:-ms-input-placeholder {
           color: #fff; }
         @media screen and (max-width: 1024px) {
-          .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper input {
-            width: 96%; } }
-        @media screen and (max-width: 800px) {
           .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-email-wrapper input {
             width: 100%; } }
         @media screen and (max-width: 480px) {
@@ -5058,9 +5093,6 @@ header {
         .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper input:-ms-input-placeholder {
           color: #fff; }
         @media screen and (max-width: 1024px) {
-          .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
-            width: 96%; } }
-        @media screen and (max-width: 800px) {
           .newsletter-cr-pages .formulario-pagina-cr .content-form-cr .formulario-cr-nw .mymail-form .mymail-wrapper.mymail-firstname-wrapper input {
             width: 100%; } }
         @media screen and (max-width: 480px) {
@@ -5127,7 +5159,7 @@ header {
     .newsletter-cr-pages .loop-suscribe {
       padding-left: 0;
       padding-right: 0; } }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 480px) {
     .newsletter-cr-pages .loop-suscribe {
       padding: 0; } }
 

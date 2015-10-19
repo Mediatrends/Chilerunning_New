@@ -14,7 +14,7 @@
 	<div class="formulario-pagina-cr">
 		
 		<div class="content-form-cr">
-			<div class="logo">
+			<div class="logo logo-formnew">
 				<a href="<?php echo home_url(); ?>">
 
 					<svg viewBox="0 0 28.857 28.857">
@@ -23,7 +23,7 @@
 
 				</a>
 			</div>
-			<h1>NEWSLETTER</h1>
+			<h1 class="formnews">NEWSLETTER</h1>
 			<h2>Suscribete</h2>
 			<div class="formulario-cr-nw">
 				<?php echo do_shortcode('[newsletter_signup_form id=0]' ); ?>
