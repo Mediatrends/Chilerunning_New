@@ -64,6 +64,7 @@
 			</div>
 
 			<div class="bg-newsletter"></div>
+
 			<div class="newsletter-new-suscribe">
 
 				<?php get_template_part('page', 'newsletter'); ?>

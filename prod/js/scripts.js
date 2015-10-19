@@ -299,48 +299,48 @@
 
 				$('.bg-newsletter').show();
 
-		        $('.newsletter-new-suscribe').fadeIn(1000,function(){
+		    $('.newsletter-new-suscribe').fadeIn(1000,function(){
 
-		        	//$('.first-box-popups').addClass('borderHeightsAnimate');
+		    	//$('.first-box-popups').addClass('borderHeightsAnimate');
 
-							enquire.register('screen and (min-width:481px)', {
-								match : function() {
-									$('.first-box-popups').addClass('borderHeightsAnimate');
-								}
-							});
-							enquire.register('screen and (max-width:480px)',{
-								match : function() {
-									$('.first-box-popups').addClass('borderHeightsAnimatePhones');
-								}
-							});
-
-		        	$('.close-button-popups').delay(100).animate({
-		        		'opacity':'1'
-		        	},{duration:100,
-		        		complete:function(){
-
-			        		$('.title-popups').animate({
-			        			opacity:1,
-			        			top:20
-			        		},{duration:1000,
-			        			complete:function(){
-
-				        			$('.body-popups').delay(100).animate({opacity:1,top:130},{duration:1000});
-				        			$('.arrow-middle').delay(1150).fadeIn(100).animate({
-				        				bottom:'-8px'
-				        			});
-				        			$('.second-box-popups').show(1,function(){
-												$(this).animate({marginTop:0},{duration:1000});
-											});
-					        	}
-				        	}).slideDown(1000);
-
-		        	}
-		        	}).click(function(){
-					    $('.newsletter-new-suscribe, .bg-newsletter, .newsletter-footer').remove();
+					enquire.register('screen and (min-width:481px)', {
+						match : function() {
+							$('.first-box-popups').addClass('borderHeightsAnimate');
+						}
+					});
+					enquire.register('screen and (max-width:480px)',{
+						match : function() {
+							$('.first-box-popups').addClass('borderHeightsAnimatePhones');
+						}
 					});
 
-		        });
+		    	$('.close-button-popups').delay(100).animate({
+		    		'opacity':'1'
+		    	},{duration:100,
+		    		complete:function(){
+
+		      		$('.title-popups').animate({
+		      			opacity:1,
+		      			top:20
+		      		},{duration:1000,
+		      			complete:function(){
+
+		        			$('.body-popups').delay(100).animate({opacity:1,top:130},{duration:1000});
+		        			$('.arrow-middle').delay(1150).fadeIn(100).animate({
+		        				bottom:'-8px'
+		        			});
+		        			$('.second-box-popups').show(1,function(){
+										$(this).animate({marginTop:0},{duration:1000});
+									});
+			        	}
+		        	}).slideDown(1000);
+
+		    		}
+		    	}).click(function(){
+			    	$('.newsletter-new-suscribe, .bg-newsletter, .newsletter-footer').remove();
+					});
+
+				});
 			}
 		});
 

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="google-site-verification" content="B1wY8HTiBtcVzb13_Ucqxv4ge3PHMDGysWvZFJO_ar4" />
-		
+
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' : '; } ?><?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
@@ -21,7 +21,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu_bubble.css">
-		
+
 		<?php wp_head(); ?>
         <!-- analytics -->
 		<script>
@@ -35,7 +35,7 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 		<script>
 		  window.fbAsyncInit = function() {
 		    FB.init({
@@ -74,7 +74,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-		
+
 		<?php include (TEMPLATEPATH . '/svg_icons.php'); ?>
 
 		<div id="mt_320x50" style="position: fixed;bottom: 0;width: 320px;margin: 0 auto;left: 0;right: 0;z-index: 99999;"></div>
@@ -84,7 +84,7 @@
 			<nav class="menu" style="overflow: scroll;position: relative;height: 80%;padding-top: 20px;">
 
 				<?php get_template_part('searchform'); ?>
-				
+
 				<?php html5blank_nav(); ?>
 			</nav>
 
@@ -99,7 +99,7 @@
 		<header class="header" role="banner">
 
 				<main>
-					
+
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -119,7 +119,7 @@
 					<!-- /nav -->
 
 					<div class="tools">
-						
+
 						<ul>
 							<li><a href="https://www.facebook.com/chilerunningscl"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://twitter.com/chilerunningscl"><i class="fa fa-twitter"></i></a></li>
@@ -128,7 +128,7 @@
 
 
 						<div id="searching" class="search">
-							
+
 							<i class="fa fa-search"></i>
 
 						</div>
@@ -136,18 +136,18 @@
 					</div>
 
 					<div class="btn_menuph" id="open-button">
-						
+
 						<span><i class="fa fa-navicon"></i></span>
 
 					</div>
 					<div class="btn_menuph hide" id="close-button">
-						
+
 						<span><i class="fa fa-times"></i></span>
 
 					</div>
-					
+
 				</main>
-				
+
 				<div class="cont_search">
 
 					<?php get_template_part('searchform'); ?>
